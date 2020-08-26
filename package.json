@@ -1,0 +1,25 @@
+{
+  "name": "testd",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/testd",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1"
+  },
+  "dependencies": {
+    "vuepress-bar": "^0.3.1",
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  }
+}
