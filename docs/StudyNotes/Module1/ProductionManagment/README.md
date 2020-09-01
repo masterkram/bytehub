@@ -1,25 +1,21 @@
 # Production Managment
 
-= operations managment
+(production managment == operations managment)
 
-the part of managment that deals with efficiently and effectivley organizing processes by means of design, managment and optimization.
+*the part of managment that deals with efficiently and effectivley organizing processes by means of design, managment and optimization.*
 
-Operations research
+### Operations research
 
-field of mathemtics that deals with modelling and optimizing processes
-
-mimic reality.
+*field of mathemtics that deals with modelling and optimizing processes*
 
 ## Historical perspective
 
-JD Rockefeller OIl
++ JD Rockefeller OIl
++ Cornelius Vanderbilt Railroads/Shipping
++ JP MorganL Banking, Steel, GE 
++ Andrew Carnegie, Steel
 
-Cornelius Vanderbilt Railroads/Shipping
-
-JP MorganL Banking, Steel, GE 
-
-Andrew Carnegie, Steel
-
+All were:
 - visionaries
 - creators
 - industrial innovators
@@ -37,8 +33,7 @@ Ford assembly line
 
 value in waste
 
-* first industrial revolution
-
+### first industrial revolution
 spinning jenny invention
 textile industry
 `+ output - cost`
@@ -48,10 +43,10 @@ steam engine (james watt)
 labour division (adam smith)
 specialization of workers increases productivity
 
-Interchangable parts honore blanc, eli Whitney
-standardization of parts increases quality, production speed, efficient repairing
+Interchangable parts Honore Blanc, Eli Whitney
+standardization of parts increases quality, production speed, efficient repairing. (rifles)
 
-* second industrial revolution
+### second industrial revolution
 
 electrification ac - dc wars
 

@@ -1,13 +1,16 @@
-# testd
+# bytehub
 
-> test
+> BIT notes app
 
 ## Development
 
 ```bash
-yarn dev
-yarn build
+npm install
+npm run dev
 ```
 
-For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
+## Deployment
+done automatically by our pipeline on merge to master.
+
+For more details, please head to VuePress's [documentation](https://v1.vuepress.vuejs.org/).
 
