@@ -1,6 +1,6 @@
 # Module 1
 
-taste of it / buisness
+taste of IT / buisness
 
 #### goals:
 - provide an overview of BIT

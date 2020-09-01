@@ -57,7 +57,7 @@ Being an element or not relates an object to a set.
 
 ### Subsets:
 
-#### Definition:
+#### Definition Subset:
 $A \subseteq B \text{ when every element a } \in A \text{ is also an element of B. (if a }\in A\text{, then } a \in B)$
 
 + $\{1, 3\}$ is a subset of $\{1, 3, 6\}$
@@ -67,3 +67,16 @@ $A \subseteq B \text{ when every element a } \in A \text{ is also an element of 
     + $\{1, 3\} \subset \{1, 3, 6\}$
 
 $\{1, 3, 6\}$ is a subset of itself but not a proper subset of itself.
+
+#### Definition Proper Subset:
+$A \subset B and A \ne B$
+
+#### Definition Set Equality:
+$A = B when A \subseteq B and B \subseteq A$
+
+#### Example:
+
+Is $\{a, b\} a subset of $\{b, \{a, b\}\} ?
+
++ $\{a, b\} \nsubseteq \{a, \{a, b\}\}
++ $\{a, b\} \in \{a, \{a, b\}\}
