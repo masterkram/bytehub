@@ -46,5 +46,6 @@ module.exports = {
     }],
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
-  ]
+    'vuepress-plugin-mathjax',
+  ],
 }

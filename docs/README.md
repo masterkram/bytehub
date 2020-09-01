@@ -2,7 +2,7 @@
 home: true
 heroImage: /campaign_launch.png
 heroText: BIT Notes App
-tagline: Summaries for each lecture
+tagline: Summaries for every lecture
 actionText: Go to Notes →
 actionLink: /studynotes/
 features:
@@ -15,4 +15,4 @@ features:
 footer:
 ---
 
-Made with ❤ by <a href="https://github.com/masterkram/bytehub/network/dependencies">contributors</a>
+<div class="link-footer">Made with ❤ by <a href="https://github.com/masterkram/bytehub/network/dependencies">contributors</a></div>
