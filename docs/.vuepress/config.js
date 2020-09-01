@@ -32,6 +32,7 @@ module.exports = {
     ...getConfig(`${dir}/..`, {maxLevel: 10}),
     sidebarDepth: 0,
     smoothScroll: true,
+    lastUpdated: 'Last Updated'
   },
 
   /**
