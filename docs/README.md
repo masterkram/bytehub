@@ -1,15 +1,16 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: test
-actionText: Quick Start →
-actionLink: /q1/
+heroImage: /hero.png
+heroText: Hero Title
+tagline: testee
+actionText: Get Started →
+actionLink: /studynotes/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Mark with ❤️
+- title: Simplicity First
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Vue-Powered
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Performant
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
