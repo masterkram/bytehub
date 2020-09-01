@@ -1,18 +1,14 @@
-# Index
+# Module 1
 
-my name is mark
+taste of it / buisness
 
-```js
+goals:
+- provide an overview of BIT
+- create a strong math base
+- allow students to switch study
 
-this.state = 3;
-let x = x + 1;
+module1.png
 
-```
+deliverables:
 
-```java
-
-public static void getString() {
-  System.out.println('obama');
-}
-
-```
+deliverables.png

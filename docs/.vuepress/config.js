@@ -1,9 +1,6 @@
 const { description } = require('../../package')
-const glob = require('glob');
-const fs = require('fs');
-const path = require('path');
-const { nav, sideBar } = require("vuepress-bar")(`${__dirname}/../StudyNotes`);
 const getConfig = require("vuepress-bar");
+const dir = __dirname;
 
 module.exports = {
   /**
@@ -32,11 +29,21 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    ...getConfig(`${dir}/..`, {maxLevel: 10})
+    ...getConfig(`${dir}/..`, {maxLevel: 10}),
+    sidebarDepth: 0,
+    smoothScroll: true,
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: {}
+  plugins: [
+    '@vuepress/last-updated',
+    '@vuepress/register-components',
+    ['@vuepress/search', {
+      searchMaxSuggestions: 4
+    }],
+    'vuepress-plugin-smooth-scroll',
+    '@vuepress/nprogress',
+  ]
 }
