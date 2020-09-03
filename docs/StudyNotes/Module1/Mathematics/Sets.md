@@ -72,11 +72,11 @@ $\{1, 3, 6\}$ is a subset of itself but not a proper subset of itself.
 $A \subset B and A \ne B$
 
 #### Definition Set Equality:
-$A = B when A \subseteq B and B \subseteq A$
+$A = B \, when A \subseteq B and B \subseteq A$
 
 #### Example:
 
-Is $\{a, b\} a subset of $\{b, \{a, b\}\} ?
+Is $\{a, b\}\, \text{a subset of} \, \{b, \{a, b\}\}$ ?
 
-+ $\{a, b\} \nsubseteq \{a, \{a, b\}\}
-+ $\{a, b\} \in \{a, \{a, b\}\}
++ $\{a, b\} \nsubseteq \{a, \{a, b\}\}$
++ $\{a, b\} \in \{a, \{a, b\}\}$
