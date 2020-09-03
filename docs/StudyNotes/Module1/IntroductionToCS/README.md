@@ -1,13 +1,11 @@
 # Introduction to computer science
 
-Main Purpose: Learn to program + fun
+*Main Purpose: Learn to program + fun*
 
-2 weeks of python then java
+### course schedule:
 
-1 Python exam
-
-1 week of Computer networks and Operating Systems
-
-2 weeks of Java
-
-java exam
+1. 2 weeks of python
+2. Python exam
+3. Computer networks and Operating Systems
+4. 2 weeks of Java
+5. java exam

@@ -10,10 +10,10 @@
 
 ## Historical perspective
 
-+ JD Rockefeller OIl
-+ Cornelius Vanderbilt Railroads/Shipping
-+ JP MorganL Banking, Steel, GE 
-+ Andrew Carnegie, Steel
++ JD Rockefeller *Oil*
++ Cornelius Vanderbilt *Railroads/Shipping*
++ JP MorganL *Banking, Steel, GE*
++ Andrew Carnegie, *Steel*
 
 All were:
 - visionaries
@@ -22,6 +22,8 @@ All were:
 - ruthless, courageous businessmen
 - monopolists, captains of industry
 - fierce competitors
+- created poor working conditions
+- philantropists in later life
 
 #### Example: Henry Ford
 
@@ -113,7 +115,7 @@ cities want to restrict freight truck traffic
 
 ## The golden age of service
 
-+ from products to service
++ move from products to service
 + (spare parts, repairs) great source of revenues and profit
 + market size: aftermarkets 5x > OEM Business (*original equipment manufacturer*)
 + high margins: 24% of business revenues generates 45% of gross profits
