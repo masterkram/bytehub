@@ -119,25 +119,3 @@ cities want to restrict freight truck traffic
 + (spare parts, repairs) great source of revenues and profit
 + market size: aftermarkets 5x > OEM Business (*original equipment manufacturer*)
 + high margins: 24% of business revenues generates 45% of gross profits
-
-## Healthcare
-
-improve on:
-- waiting time
-- costs
-- waste
-- overtime
-- cancellations
-- space
-
-by optimizing:
-- quality of care
-- quality of labor
-- productivity
-
-#### example: CHOIR
-
-help care providers with
-IT solutions / consulting.
-
-reduce wait time with planning of surgeries

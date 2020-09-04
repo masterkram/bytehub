@@ -15,4 +15,4 @@ features:
 footer:
 ---
 
-<div class="link-footer">Made with ❤ by <a href="https://github.com/masterkram/bytehub/network/dependencies">contributors</a></div>
+<div class="link-footer">Made with ❤ by <a href="https://github.com/masterkram/bytehub/graphs/contributors">contributors</a></div>

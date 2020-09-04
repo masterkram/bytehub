@@ -2,14 +2,18 @@
 
 ## Python
 
-python has a transpiler
+python has an interpreter, instead of a compiler
 
 graph.png
 
 ## basic computer architecture | von neumann diagrams
 
-INPUT => CPU <=> RAM => OUTPUT
-
+```mermaid
+graph TD;
+    INPUT-->CPU;
+    CPU---RAM;
+    CPU-->OUTPUT;
+```
 
 ## Pycharm IDE
 

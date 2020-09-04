@@ -69,14 +69,14 @@ $A \subseteq B \text{ when every element a } \in A \text{ is also an element of 
 $\{1, 3, 6\}$ is a subset of itself but not a proper subset of itself.
 
 #### Definition Proper Subset:
-$A \subset B and A \ne B$
+$A \subset B \text{ and } A \ne B$
 
 #### Definition Set Equality:
-$A = B \, when A \subseteq B and B \subseteq A$
+$A = B \, \text{ when } \, A \subseteq B \, \text{ and } \, B \subseteq A$
 
 #### Example:
 
-Is $\{a, b\}\, \text{a subset of} \, \{b, \{a, b\}\}$ ?
+Is $\{a, b\}\, \text{ a subset of } \, \{b, \{a, b\}\}$ ?
 
 + $\{a, b\} \nsubseteq \{a, \{a, b\}\}$
 + $\{a, b\} \in \{a, \{a, b\}\}$

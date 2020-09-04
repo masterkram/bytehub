@@ -29,6 +29,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    nav: [
+      {text: 'Github', link: 'https://github.com/masterkram/bytehub'}
+    ],
     ...getConfig(`${dir}/..`, {maxLevel: 10}),
     sidebarDepth: 0,
     smoothScroll: true,
@@ -47,5 +50,6 @@ module.exports = {
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
+    'vuepress-plugin-mermaidjs',
   ],
 }

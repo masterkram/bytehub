@@ -10,7 +10,7 @@ npm run dev
 ```
 
 ## Deployment
-done automatically by our pipeline on merge to master.
+done automatically by netflify.
 
 For more details, please head to VuePress's [documentation](https://v1.vuepress.vuejs.org/).
 

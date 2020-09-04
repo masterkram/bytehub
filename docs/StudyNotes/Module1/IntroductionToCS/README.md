@@ -1,11 +1,14 @@
 # Introduction to computer science
 
-*Main Purpose: Learn to program + fun*
+*Main Purpose: Learn to program + fun* :tada:
 
 ### course schedule:
 
-1. 2 weeks of python
-2. Python exam
-3. Computer networks and Operating Systems
-4. 2 weeks of Java
-5. java exam
+| Week | What | Exam |
+|--- | --- | --- |
+| 1 | Python |  |
+| 2 | Python | true |
+| 3 | Computer Networks, OS |  |
+| 4 | Java |  |
+| 5 | Java |  |
+| 6 | Java | true  |
