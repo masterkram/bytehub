@@ -80,3 +80,20 @@ Is $\{a, b\}\, \text{ a subset of } \, \{b, \{a, b\}\}$ ?
 
 + $\{a, b\} \nsubseteq \{a, \{a, b\}\}$
 + $\{a, b\} \in \{a, \{a, b\}\}$
+
+## Symbols
+
+| Meaning | Symbol |
+| ------- | ------ |
+| Element of | $a \in A$ |
+| Subset of  | $A \subseteq B$ |
+| Proper subset | $A \subsetneq B$ |
+| Empty set | $\emptyset$ |
+| Union | $A \cup B$ |
+| Intersection | $A \cap B$ |
+| Difference | $A / B$ |
+| Complement | $\overline{\rm A}$ |
+
+## Sources
++ Harry Aarts, Ed Brinksma, Jan Willem Polderman, Gerhard Post, Marc Uetz, Marjan van der Velde (2018) Introduction to Mathematics
++ Micro-lectures wk1

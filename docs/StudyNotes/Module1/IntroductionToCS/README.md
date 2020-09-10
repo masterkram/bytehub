@@ -12,3 +12,17 @@
 | 4 | Java |  |
 | 5 | Java |  |
 | 6 | Java | true  |
+
+## History
+Allies wanted to decode german messages sent to their ships
+Women were employed.
+
+### Language development
+Machine Language
+Assembler
+Fortran
+Cobol
+Algol
+C
+C++
+Java

@@ -1,6 +1,4 @@
-## History
-
-## Python
+# Python
 
 python has an interpreter, instead of a compiler
 

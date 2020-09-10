@@ -20,8 +20,6 @@
     "vuepress-plugin-mermaidjs": "^1.7.2"
   },
   "dependencies": {
-    "glob": "^7.1.6",
-    "markdown-it-katex": "^2.0.3",
     "vuepress-bar": "^0.3.1",
     "vuepress-plugin-auto-sidebar": "^1.5.0",
     "vuepress-plugin-mathjax": "^1.2.8"

@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: /campaign_launch.png
-heroText: BIT Notes App
+heroText: BIT Notes
 tagline: Summaries for every lecture
 actionText: Go to Notes →
 actionLink: /studynotes/
 features:
 - title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+  details: We try to present only the necessary information in the most understandable way.
+- title: Open Source
+  details: Summaries can be contributed by anyone, for varying note taking techniques and explanations.
 - title: Performant
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer:

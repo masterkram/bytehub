@@ -10,13 +10,7 @@ in organizations.
 
 Chooing a domain: IT and looking what solutions it offers for businesses.
 
-What is the value proposition? (of tech)
-
-Match technologies,
 see how technologies can be implemented in organisations
-how can this change organisations
-
-hype cycle.png
 
 ## why bit ?
 
@@ -34,7 +28,7 @@ if you want solutions you have to translate between the two groups.
 ### bit bachelor
 
 4 quartiles
-quartiles.png
+<img src="/bachelor.png"/>
 
 ## study planning
 
