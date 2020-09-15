@@ -1,5 +1,5 @@
 # Information Managment
-*information systems managment*
+full name = *information systems managment*
 
 ## What is information mangment ?
 + managment process
@@ -10,11 +10,10 @@
 + Application Layer
 + Database Layer
 
-Models
-
-Conceptual Design
-Logical Design
-Physical Design
+Steps of design:
+1. Conceptual Design
+2. Logical Design
+3. Physical Design
 
 Requirements:
 + Specification Documents
@@ -22,13 +21,18 @@ Requirements:
 + Business Models
 
 ```mermaid
-Requirements --> Application_Behavior
-Requirements --> Database
-Requirements --> User_Interface
-Requirements --> Architecture
-Application_Deployment/Testing
+graph TD;
+Requirements --> Application_Behavior;
+Requirements --> Database;
+Requirements --> User_Interface;
+Requirements --> Architecture;
+Application_Behavior --> Application_Deployment/Testing;
+Database --> Application_Deployment/Testing;
+User_Interface --> Application_Deployment/Testing;
+Architecture --> Application_Deployment/Testing;
 ```
 
+Types of models:
 + Requirements Models (BMC)
 + Process models (BPMN)
 + Data models (class diagrams, ER diagrams)
@@ -36,39 +40,39 @@ Application_Deployment/Testing
 + Interface Models
 
 ### Business model
-*A business model describes the rationale of how nan organization creates, delivers, and captures value, in economic, social or cultural or other contexts.*
+*A business model describes the rationale of how an organization creates, delivers, and captures value, in an economic, social, cultural or other context.*
 
 #### Key Words:
-+ Activity
-+ Structure
-+ Sequence
-+ Beginning
-+ Input
-+ Output
-+ Beginning
-+ End
-+ Time
-+ Customera
-+ Result
++ `Activity`
++ `Structure`
++ `Sequence`
++ `Beginning`
++ `Input`
++ `Output`
++ `Beginning`
++ `End`
++ `Time`
++ `Customer`
++ `Result`
 
-Modelling:
+Modelling for business models:
 + BMC
 + 3EM
 
 ### Business processes
 *a specific ordering of activities that has recevies an input and produces output that is of value to a customer*
 
-Modelling:
-+ informal models: textual descriptions / free form diagrams
+Modelling for buisness processes:
++ informal models: textual descriptions / free form
 + formal models: BPMN, EPC, BuissDesigner
 
-
-+ Knowing how the business works
-+ explicit
+Why should you model this?
++ You know how the business works.
++ it's explicit, so it is better for
     + Analysis
     + Optimization
-    + Better managment
-+ Identify automatization possibilities
+    + Managment
++ Identifies automatization possibilities.
 
 ## BPMN
 
