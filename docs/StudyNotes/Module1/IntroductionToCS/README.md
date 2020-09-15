@@ -26,3 +26,12 @@ Women were employed.
 + C
 + C++
 + Java
+
+### von neumann diagram
+
+```mermaid
+graph TD;
+    INPUT-->CPU;
+    CPU---RAM;
+    CPU-->OUTPUT;
+```

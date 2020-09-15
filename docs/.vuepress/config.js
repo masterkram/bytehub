@@ -48,5 +48,9 @@ module.exports = {
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
     'vuepress-plugin-mermaidjs',
+    '@vuepress/google-analytics',
+    {
+      'ga': 'UA-178035298-1'
+    }
   ],
 }
