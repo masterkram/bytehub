@@ -81,7 +81,14 @@ Is $\{a, b\}\, \text{ a subset of } \, \{b, \{a, b\}\}$ ?
 + $\{a, b\} \nsubseteq \{a, \{a, b\}\}$
 + $\{a, b\} \in \{a, \{a, b\}\}$
 
-## Symbols
+## Proposition vs. Predicate:
+`Proposition`: statement for which you can determine if it's truth value (True or False).
+
+`Predicate`: a statement for which the truth value (T/F) cannot be determined. (missing value for a variable)
+
+If you add a `Domain` to a `Predicate` it becomes a `Proposition` because you can now determine the truth value (T/F).
+
+## Symbols:
 
 | Meaning | Symbol |
 | ------- | ------ |

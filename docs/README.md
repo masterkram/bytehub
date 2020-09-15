@@ -6,7 +6,7 @@ tagline: Summaries for every lecture
 actionText: Go to Notes →
 actionLink: /studynotes/
 features:
-- title: Simplicity First
+- title: Simplicity First 
   details: We try to present only the necessary information in the most understandable way.
 - title: Open Source
   details: Summaries can be contributed by anyone, for varying note taking techniques and explanations.

@@ -18,11 +18,11 @@ Allies wanted to decode german messages sent to their ships
 Women were employed.
 
 ### Language development
-Machine Language
-Assembler
-Fortran
-Cobol
-Algol
-C
-C++
-Java
++ Machine Language
++ Assembler
++ Fortran
++ Cobol
++ Algol
++ C
++ C++
++ Java

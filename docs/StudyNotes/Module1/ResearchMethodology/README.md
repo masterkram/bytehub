@@ -79,41 +79,46 @@ Problem --> Diagnose --> Plan --> Implement --> Evaluate
 ```
 
 Problem Identification research, Diagnostic research
-Design research, Monitoring research, Evaluate research
+Design research, Monitoring research, Evaluative research
 
 ## Steps
 
 1. Introduction
+*Convince people you know the problem*
 	+ Justification
 	+ Context: problem cluster
 	+ Problem or challenge: Problem statement
 
 2. Theory:
+*Convince people you know the solution*
 	+ Problem cause or challenge requirement 1
 	+ Problem cause or challenge requirement 2
 	+ Related work / state of the art
 	+ Research questions / requirements
 
 3. Research Method:
+*Make this as retraceable as possible*
 	+ Problem or challenge 1
 	+ Problem or challenge 2
 
 4. Results
+*Display results*
 	+ Problem or challenge 1
 	+ Problem or challenge 2
 
 5. Conclusion & Discussion
+*What is happening in this situation*
 	+ Problem or challenge 1
 	+ Problem or challenge 2
 	+ Main Problem
 
-6. Conclusion/ Discussion
-
-7. Recomendations
+6. Recomendations
+*How do the findings have impact*
 	+ Main findings
 	+ Practical implications
 	+ scientific implication
 
+7. Reference list
 
 
 Course Structure:

@@ -1,28 +1,65 @@
 # Proofs
 
-## How to prove a statement ?
-
-1. Determine what is given and what you can assume about the problem. Determine
-what you must show or find.
-
-2. Write down the mathematical definitions of what you have to show, and the definitions of concepts you may use.
-
-3. Before starting the formal proof, look at the problem and see if the statement is reasonable. Things that might help here are making a picture, trying an example, or
-discussing the problem with others. If you think the statement is not true, you can try to find a counterexample. If you find it you are done.
-
-4. If it is not clear why the statement is true, browse through related theorems and examples to see if they have something to do with what you are given or what you need to show. This might give you an idea for a proof.
-
-5. As soon as you have the feeling the statement is true,
-analyze why that is the case. A proof often exists of several steps which lead from the givens to the desired result.
-Write down these consecutive steps. This is the step in which you actually write
-the proof. It is of the utmost importance that you carefully explain all steps you take. A proof that is only clear to yourself is useless.
-
-6. Now that you have written down everything there is, take some distance and see if
-it is a good argument.
-
 ## Proof Templates:
+the fancy english/structure you have to write to get
+the full points
 
-### Induction
+In all cases it is good to write the theorem before starting the proof.
+
+*italic* text is supposed to be filled in or replaced in the actual proof.
+
+---
+
+### Counterexample:
+The statement is false for n = *value goes here*
+
+*(show why it is false for n = value)*
+
+---
+
+### Proof by cases:
+Make sure that the cases put together form the entire set you are trying to prove the proposition for.
+
+**THEOREM:** $\text{For every} \, n \in R,\,$ `S(n):` *(...)* 
+
+**Proof:** By cases
+we distinguish *two* cases
+
+<ins>Case one:</ins> *(...)*
+
+<ins>Case two:</ins> *(...)*
+
+In both cases we proved S(x), since for each $x \in R$
+we have either *case one* or *case two* we proved that S(x) holds for all $x \in R$
+$\square$
+
+---
+
+### Direct proof:
+
+**THEOREM:** $\text{For every} \, n \in N,\,$ `S(n):` *(...)* 
+
+**Proof:** take an arbitrary integer x such that x *fufills conditions* 
+$\square$
+
+---
+
+### Proof by contradiction:
+
+**THEOREM:** P -> Q
+
+**Proof:**
+Assume, for the sake of contradiction *P* is true but *Q* is false.
+
+*(...)*
+
+Since we have a contradiction, it must be that *Q* is true.
+
+$\square$
+
+---
+
+### Proof by Induction:
 
 **THEOREM:** $\text{For every} \, n \in N,\,$ `S(n):` *(...)* 
 
@@ -43,6 +80,8 @@ Proof of inductive step: *(...)*
 <ins>Conclusion:</ins>
 We thus have that S(1) is true and $\forall k \in N, S(k) \implies S(k + 1)$, so by the principle of mathematical induction, it follows that S(n) is true for all natural numbers n.
 $\square$
+
+---
 
 ## Sources
 + Harry Aarts, Ed Brinksma, Jan Willem Polderman, Gerhard Post, Marc Uetz, Marjan van der Velde (2018) Introduction to Mathematics
