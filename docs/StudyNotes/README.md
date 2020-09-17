@@ -27,7 +27,8 @@ if you want solutions you have to translate between the two groups.
 
 ### bit bachelor
 
-4 quartiles
+[curriculum](https://www.utwente.nl/en/bit/curriculum/bitcurriculum2020-1/)
+
 <img src="/bachelor.png"/>
 
 ## study planning

@@ -9,10 +9,6 @@ taste of IT / buisness
 
 module1.png
 
-#### deliverables:
-
-deliverables.png
-
 ## Project
 
 - mobile app for the yearly Batavieren relay race
