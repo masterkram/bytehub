@@ -7,8 +7,6 @@ taste of IT / buisness
 - create a strong math base
 - allow students to switch study
 
-module1.png
-
 ## Project
 
 - mobile app for the yearly Batavieren relay race
