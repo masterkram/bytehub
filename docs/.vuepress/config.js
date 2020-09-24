@@ -1,6 +1,8 @@
 const { description } = require('../../package')
 const {nav, sidebar} = require("vuepress-bar")(`${__dirname}/..`, {maxLevel: 10});
 
+sidebar.pop(); // remove contributing from auto sidebar.
+
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
