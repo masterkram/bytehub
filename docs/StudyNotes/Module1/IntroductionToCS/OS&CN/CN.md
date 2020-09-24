@@ -77,10 +77,10 @@ end
 B-->router1;
 ```
 
-Packet queuing and loss: if arrival rate (in bps) to link exceeds
+If the arrival rate (in bps) to a link exceeds the
 transmission rate (bps) of link for some period of time:
-• packets will queue, waiting to be transmitted on output link
-• packets can be dropped (lost) if memory (buffer) in router fills up
++ packets will queue, waiting to be transmitted on output link
++ packets can be dropped (lost) if memory (buffer) in router fills up
 
 #### Circuit switching - Alternatice to packet switching
 *end-end resources allocated to, reserved for “call” between source and destination*
@@ -131,7 +131,7 @@ to the layer above it
 + Each layer may introduce its own header
 “One layer’s header is (part of) another layer’s data.” 
 
-| Layer        | Resposability | Example | Message Name | Addressing |
+| Layer        | Responsability | Example | Message Name | Addressing |
 | ------------- | ------------ | ------- | ------------ | ---------- |
 | Application Layer | User applications such as web browsing, email | HTTP, SMTP, etc| Message | |
 | Transport Layer |  End to end delivery of segments |  TCP (reliable, connection-oriented, flow control), UDP (unreliable, connectionless, no flow control) | Segment | Port # |
@@ -147,15 +147,12 @@ Thin waist of the Internet is IP:
 protocols above IP
 + Multiple link layer and physical layer
 below IP
-+ “IP is the glue that binds the Internet
-together”
 
 ### Addressing in the Internet
 IP address: Unique address showing the recipient
 
-+ Computers on the Internet
-(“hosts'') are identified by an
-address:
+Computers on the Internet are identified by IP
+addresses:
 + a 32-bit number, for example:
 10000010 01011001 00000011
 11111001
@@ -185,21 +182,18 @@ handled within the UT.
 32-bit addresses
 2^32 ~ 4 Billion
 
-But, still shortage of IP addresses due to 
-address allocation as
-entire blocks, e.g.,
-130.89 for UT
+But, shortage of IP addresses.
 
-Human readable names
+Domains:
 + For human convenience, many hosts also have a name, for
-example www.utwente.nl.
+example www.utwente.nl
 + Converting names to IP addresses and vice versa is done by the
 Domain Name System (DNS)
 
 ### Routing and Forwarding
-Routing: Finding a path between a source and a
+**Routing**: Finding a path between a source and a
 destination over the most appropriate routers
-Forwarding: local action, moving incoming
+**Forwarding**: local action, moving incoming
 packet to appropriate outgoing link of the router
 
 ## Performance metrics: loss, delay, throughput
@@ -236,14 +230,42 @@ How do packet delay and loss occur?
 
 $d_{nodal} = d_{proc} + d_{queue} + d_{trans} + d_{prop}$
 
-
 ### Delays for multiple packets:
-some packets cannot be sent soimultaneusly.
+When considering the delay of multiple packets:
++ Some delays add up: e.g., next packet can only be transmitted
+after previous packet's transmission delay has ended.
++ Others don't: e.g., several packets can be propagating on the line
+simultaneously.
 
-**Caravan analogy:**
+### Throughput
+Throughput is the rate (bits/time) unit at which bits are being sent from sender to receiver
 
+The average end to end throughput is the bottleneck link: the link with the lowest capacity.
 
 ## TCP
+Connection-oriented protocol
+
++ A logical connection is established between the two ends before data transfer
++ Connection establishment via three-way handshake
++ Bidirectional connection, data flow in two directions
++ Reliable delivery
++ reliable: every transmission of data is acknowledged by the receiver.
++ packet loss and corruption might happen but TCP finds it out.
++ retransmission of lost packets:
++ If the sender does not receive acknowledgement within a specified amount
+of time, the sender retransmits the data
++ Flow control, congestion control
+
+### TCP segment:
+Source and destination ports (distinguish between multiple
+connections)
+• Sequence number (used to order packets)
+• the first byte of data included in the segment
+• Acknowledgement number (used to verify packets are received)
+• indicates the byte number of the next data that is expected to
+be received
+• All bytes up through this number have already been received
+
 
 ### Connection establishment
 
@@ -259,18 +281,28 @@ sequenceDiagram;
     Host_A-->>Server_B: ACK = Y + 1
 ```
 
+### Problems:
+What TCP does in case:
++ Channel results in bit errors and corruption of the message.
+    1. Receiver receives all data but detects errors
+    2. Receiver tells the sender: “please repeat that”
+    3. Sender retransmits the data that were corrupted
++ Packet loss and corruption.
+    1. Receiver receives some data, some is lost, and some is corrupted
+    2. Receiver detects errors but cannot always detect loss
+    3. Sender must wait for acknowledgment (“ACK” or “OK”)
+    4. and retransmit data after some time if no ACK arrives
+
 ### TCP header fields:
-+ Seq is the sequence number of the first byte of application-layer data in this
++ **Seq** is the sequence number of the first byte of application-layer data in this
 packet; or, if this packet does not contain any application-layer data, it is the
 sequence number that such a first byte "would have" had if it were there. 
-+ Ack is the sequence number of the next byte expected by the sender of this
++ **Ack** is the sequence number of the next byte expected by the sender of this
 packet; it acknowledges all bytes with lower sequence numbers (therefore it is
 called a "cumulative" acknowledgement). 
-+ Len is the number of application-layer bytes in this packet (it is not really a
-field in the header, but computed by Wireshark). 
-+ SYN and FIN are single bits in the header, which if set mean it's the beginning
-of a connection or the end. They also take up one place in the sequence
-number space, so they can be acknowledged
++ **Len** is the number of application-layer bytes in this packet (only in Wireshark). 
++ **SYN** begin connection.
++ **FIN** end connection.
 
 ## User Datagram Protocol (UDP):
 + Conectionless
