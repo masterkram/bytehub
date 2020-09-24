@@ -201,3 +201,85 @@ Routing: Finding a path between a source and a
 destination over the most appropriate routers
 Forwarding: local action, moving incoming
 packet to appropriate outgoing link of the router
+
+## Performance metrics: loss, delay, throughput
+
+How do packet delay and loss occur?
+
++ packet **queue** in router buffers, waiting for turn for transmission.
+    + queue length grows when arrival rate to link (temporarily) exeeds output link
+    capacity
++ packet **loss** occurs when memory for the queue if full.
+
+### Best-effort service:
+
++ Internet provides best effort service: no guarantees
++ lost packet may be retransmitted by previous node, by source end system, or not at all
+
+### packet delay: four sources:
++ $d_{nodal}$: total delay at a node e.g, router
++ $d_{proc}$: processing delay
+    + check bit errors
+    + determine output link
+    + typically < microsecs
++ $d_{queue}$: queue delay
+    + time waiting at output link for transmission
+    + depends on congestion level of the router.
++ $d_{trans}$: transmission delay
+    + L: packet length (bits)
+    + R: link transmisson rate (bps)
+    + $d_{trans} = \frac{L}{R}$
++ $d_{prop}$: propagation delay
+    + d: length of physical link
+    + s: propagation speed (~$2*10^8$ m/sec)
+    + $d_{prop} = \frac{d}{s}$
+
+$d_{nodal} = d_{proc} + d_{queue} + d_{trans} + d_{prop}$
+
+
+### Delays for multiple packets:
+some packets cannot be sent soimultaneusly.
+
+**Caravan analogy:**
+
+
+## TCP
+
+### Connection establishment
+
+Threee way handshake:
+1. Host_A: **SYN:** I want to connect and I will send my data starting with sequence number Initial Sequence Number (ISN) X.
+2. Server_B: **SYN, ACK:** Yes you can connect, I will send my data starting with sequence number (ISN) Y, and expect X+1 from you,
+3. Host_A: **ACK:** Sounds good, I expect Y+1 from you.
+
+```mermaid
+sequenceDiagram;
+    Host_A-->>Server_B: SYN, ISN=X;
+    Server_B-->>Host_A: SYN, ISN=Y ACK=X+1
+    Host_A-->>Server_B: ACK = Y + 1
+```
+
+### TCP header fields:
++ Seq is the sequence number of the first byte of application-layer data in this
+packet; or, if this packet does not contain any application-layer data, it is the
+sequence number that such a first byte "would have" had if it were there. 
++ Ack is the sequence number of the next byte expected by the sender of this
+packet; it acknowledges all bytes with lower sequence numbers (therefore it is
+called a "cumulative" acknowledgement). 
++ Len is the number of application-layer bytes in this packet (it is not really a
+field in the header, but computed by Wireshark). 
++ SYN and FIN are single bits in the header, which if set mean it's the beginning
+of a connection or the end. They also take up one place in the sequence
+number space, so they can be acknowledged
+
+## User Datagram Protocol (UDP):
++ Conectionless
++ Unreliable
++ Packets may or may not arrive at destination
++ no handshaking before sending a segment
++ best-effort approach
+
+### UDP pros:
++ small overhead, no need to establish a connection.
++ no need to keep a state at sender and receiver.
++ video streaming used UDP, nowadays it uses TCP/HTTP video streaming.
