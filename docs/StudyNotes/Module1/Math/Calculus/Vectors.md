@@ -30,3 +30,7 @@ The vector $\overrightarrow{PQ}$ is the directed line segment with initial point
 + The name of a vector can be written in bold: **v** or underlined <ins>v</ins>
 
 ### Standard position and component form
+
++ A vector is in **standard position** if the origin is its intitial point.
++ If the vector equals OP where O is the origin and P = (x, y, z), then we write **v** on **component form**:
+$v = x, y, z$
