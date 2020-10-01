@@ -131,12 +131,12 @@ to the layer above it
 + Each layer may introduce its own header
 “One layer’s header is (part of) another layer’s data.” 
 
-| Layer        | Responsability | Example | Message Name | Addressing |
+| Layer        | Responsibility | Example | Message Name | Addressing |
 | ------------- | ------------ | ------- | ------------ | ---------- |
 | Application Layer | User applications such as web browsing, email | HTTP, SMTP, etc| Message | |
-| Transport Layer |  End to end delivery of segments |  TCP (reliable, connection-oriented, flow control), UDP (unreliable, connectionless, no flow control) | Segment | Port # |
+| Transport Layer |  End to end delivery of segments |  TCP (reliable, connection-oriented, flow control), UDP (unreliable, connection-less, no flow control) | Segment | Port # |
 | Network Layer | Routing of packets from a source to destination | IP | Datagram | IP address |
-| Link Layer | Unreliable delivery of frames to a neighbour node | WiFi, Ethernet | Frame | MAC address |
+| Link Layer | Unreliable delivery of frames to a neighbor node | WiFi, Ethernet | Frame | MAC address |
 | Physical Layer | Unreliable delivery of bits | wireless, wired (optical links, coaxial cable, copper) | | |
 
 ### Hourglass Model
@@ -201,7 +201,7 @@ packet to appropriate outgoing link of the router
 How do packet delay and loss occur?
 
 + packet **queue** in router buffers, waiting for turn for transmission.
-    + queue length grows when arrival rate to link (temporarily) exeeds output link
+    + queue length grows when arrival rate to link (temporarily) exceeds output link
     capacity
 + packet **loss** occurs when memory for the queue if full.
 
@@ -215,13 +215,13 @@ How do packet delay and loss occur?
 + $d_{proc}$: processing delay
     + check bit errors
     + determine output link
-    + typically < microsecs
+    + typically < microseconds
 + $d_{queue}$: queue delay
     + time waiting at output link for transmission
     + depends on congestion level of the router.
 + $d_{trans}$: transmission delay
     + L: packet length (bits)
-    + R: link transmisson rate (bps)
+    + R: link transmission rate (bps)
     + $d_{trans} = \frac{L}{R}$
 + $d_{prop}$: propagation delay
     + d: length of physical link

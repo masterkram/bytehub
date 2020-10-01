@@ -14,7 +14,7 @@ The client or employer you are working with will report gaps between expectation
 You should search for related problems to the problems reported.
 
 ### data gathering methods:
-+ comunication approach
++ communication approach
 + analysis of primary sources
 + observation
 + literature study
@@ -28,9 +28,9 @@ Identify problems that cause other problems: *Core Problem*
 
 ```mermaid
 graph TD;
-low_production_rate --> high_machine_failure_rate;
-low_production_rate --> low_motivation_of_employees;
-high_machine_failure_rate --> outdated_machines;
-high_machine_failure_rate --> low_quality_raw_materials;
-low_motivation_of_employees --> high_workload;
+lpr[Low Production Rate] --> hmfr[High Machine Failure Rate];
+lpr --> lmoe[Low Motivation of Employees];
+hmfr --> om[Outdated Machines];
+hmfr --> lqorm[Low Quality of Raw Materials];
+lmoe --> hw[High Workload];
 ```

@@ -1,8 +1,8 @@
-# Information Managment
-full name = *information systems managment*
+# Information Management
+full name = *information systems management*
 
-## What is information mangment ?
-+ managment process
+## What is information management ?
++ management process
 + IT systems that help to deal with data
 
 ## 3-Tier Architecture 
@@ -22,14 +22,14 @@ Requirements:
 
 ```mermaid
 graph TD;
-Requirements --> Application_Behavior;
-Requirements --> Database;
-Requirements --> User_Interface;
-Requirements --> Architecture;
-Application_Behavior --> Application_Deployment/Testing;
-Database --> Application_Deployment/Testing;
-User_Interface --> Application_Deployment/Testing;
-Architecture --> Application_Deployment/Testing;
+rq[Requirements] --> ab[Application Behavior];
+rq --> db[Database];
+rq --> ui[User Interface];
+rq --> a[Architecture];
+ab[Application Behavior] --> adt[Application Deployment and Testing];
+db --> adt;
+ui --> adt;
+a --> adt;
 ```
 
 Types of models:
