@@ -209,7 +209,7 @@ calls
 
 • An entire operating system can be run within a VM.
 • Multiple VMs can run on a single "real" machine.
-• sharing the processor eficiently is done by *hypervisor* software.
+• sharing the processor efficiently is done by *hypervisor* software.
 
 VMs are useful for:
 + Developing/Testing apps for multiple OSes

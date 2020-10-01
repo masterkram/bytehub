@@ -1,12 +1,12 @@
-# Production Managment
+# Production Management
 
-(production managment == operations managment)
+(production management == operations management)
 
-*the part of managment that deals with efficiently and effectivley organizing processes by means of design, managment and optimization.*
+*the part of management that deals with efficiently and effectively organizing processes by means of design, management and optimization.*
 
 ### Operations research
 
-*field of mathemtics that deals with modelling and optimizing processes*
+*field of mathematics that deals with modelling and optimizing processes*
 
 ## Historical perspective
 
@@ -23,7 +23,7 @@ All were:
 - monopolists, captains of industry
 - fierce competitors
 - created poor working conditions
-- philantropists in later life
+- philanthropists in later life
 
 #### Example: Henry Ford
 
@@ -47,7 +47,7 @@ standardization of parts increases quality, production speed, efficient repairin
 
 Electrification
 
-scietific managment(taylorism) following adam smith / charles babbage
+scientific management(taylorism) following adam smith / charles babbage
 
 best working practices
 time and motion studies
@@ -58,7 +58,7 @@ Gilbreth: Time and motion studies
 
 Diversification
 
-Economies of scale (reduce costs, improve efficency) => Economies of scope (two or more priducts) reduce risk
+Economies of scale (reduce costs, improve efficiency) => Economies of scope (two or more products) reduce risk
 
 Market Pull
 economic dev
@@ -82,7 +82,7 @@ stable production process with as little variation as possible is desirable
 
 ## Re-discovering manufacturing
 
-closed loop supply chains consist of the primary supply chain and secondary supply loops for the whole product, its componets or its materials
+closed loop supply chains consist of the primary supply chain and secondary supply loops for the whole product, its components or its materials
 
 supply chain.png
 
@@ -96,9 +96,9 @@ product returns represent a value stream not just a waste stream
 
 gateway to europe
 
-+ geografical position
++ geographical position
 + rotterdam depth
-+ exellent main ports
++ excellent main ports
 + network of hinterland connections
 + logistic service providers networks
 + legislative framework and customs

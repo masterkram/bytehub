@@ -2,20 +2,20 @@
 
 ## what is bit ?
 
-- buisness holds problems.
+- business holds problems.
 - IT holds many of the solutions.
 
 Automate processes and make processes faster
 in organizations.
 
-Chooing a domain: IT and looking what solutions it offers for businesses.
+Choosing a domain: IT and looking what solutions it offers for businesses.
 
-see how technologies can be implemented in organisations
+see how technologies can be implemented in organizations
 
 ## why bit ?
 
-inteface between two groups.
-IT culture / buisness culture is **very** different
+interface between two groups.
+IT culture / business culture is **very** different
 
 if you want solutions you have to translate between the two groups.
 

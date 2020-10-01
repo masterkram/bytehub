@@ -41,7 +41,7 @@ a permutation if n distinct elements is an ordering of the n elements There are 
 >
 >You only want to select r things (Not all n)
 
-an r-permutaion if n distinct elements is an ordering of r out of n elements where 0 < r < n the number P(n, r)
+an r-permutation if n distinct elements is an ordering of r out of n elements where 0 < r < n the number P(n, r)
 of r-permutations of n elements is
 
 n * (n - 1) * ... * (n - r + 1) = $\frac{n!}{(n-r)!}$
@@ -55,7 +55,7 @@ Notation: *C(n, r)*
 
 $C(n, r) = \binom{n}{r} = \frac{P(n, r)}{r!} = \frac{n!}{r! * (n - r)!}$
 
-Usefull formulas:
+Useful formulas:
 
 $\binom{n}{0} = \binom{n}{n} = 0$
 

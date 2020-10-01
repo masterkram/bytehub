@@ -1,22 +1,22 @@
-# Proccess Optimization
+# Process Optimization
 
 ## How to optimize processes ?
 
 - bottom up:
-create an atmosphere of continous improvement.
+create an atmosphere of continuous improvement.
 
 - top down:
 optimize planning and control.
 
 example: Toyota.
 
-### Continous Improvement
-- singlaling problems is rewarded
+### Continuous Improvement
+- signalling problems is rewarded
 - find causes first, then look for solutions.
 
 ## Logistical Paradigms
 
-### 3 principles of Operations Managment:
+### 3 principles of Operations Management:
 
 Main goal:
 + maximize value adding (eliminate non value adding activities)
@@ -24,7 +24,7 @@ Main goal:
 ---
 
 Internal goals:
-+ reduce variablility (eliminate disturbances, mistakes variations)
++ reduce variability (eliminate disturbances, mistakes variations)
 + reduce complexity (less is more, the easiest solution that works is the best)
 
 what is the optimal balance between reducing variability / complexity
@@ -36,12 +36,12 @@ what is the optimal balance between reducing variability / complexity
 
 ### Benchmarking
 
-+ Learn by performance comparision.
-+ Often results in naminng/shaming/blaming
++ Learn by performance comparison.
++ Often results in naming/shaming/blaming
 
 ### ConWIP (Constant work-in-progress)
 
-Strive for continous workload:
+Strive for continuous workload:
 - reduces leadtime
 - improves quality
 
@@ -51,7 +51,7 @@ Advantages:
 + process wide orientation
 
 Disadvantages:
-+ not suitable when there is high variablility
++ not suitable when there is high variability
 in the process.
 
 ### Push vs. Pull vs. ConWIP
@@ -107,21 +107,21 @@ Eliminate:
 + Doing more than necessary
 + Unused capacities / creativity
 
-Example Lean Instuments:
+Example Lean Instruments:
 + `Kaizen` Plan-Do-Check-Act
 + `Pull Production` demand controlled production
 + `Line balancing` workload control
 + `Just-in-Time` deliver as late as possible (reduce inventory)
 + `Two-Bin` *bin 1* is used for production, *bin 2* is used as reserve, if 1 is empty switch the bins.
 + `Poka Yoke` "mistake proof" production (originally called idiot-proof, for example if you open the door of a microwave it will stop)
-+ `Learn by doing` productivity improvment by experience
++ `Learn by doing` productivity improvement by experience
 + `Single Minute Exchange of Die` leadtime reduction (change production from one product to another in less than 10 minutes)
 + `1:3 and 3:1` 1 person can do 3 tasks, 3 persons can do 1 task
 
 #### Single Minute Exchange of Die
 (Shingeo, Shingo) Reduction of setup times
 + Perform steps in parallel
-+ Create a standarized and optimized process.
++ Create a standardized and optimized process.
 
 ### Just-In-Time
 *High volume output, with little (intermediate) inventory of
@@ -133,28 +133,28 @@ materials and parts, by:*
 + Focused factory: it is easier to manage small specialized units
 
 ### Focused Factory
-*Standarize working methods through protocols:
+*Standardize working methods through protocols:
 efficient, improved quality.*
 
 + Focus first on large customer groups.
 + Reserve capacity for these customers.
 
 Advantages:
-+ "repetiton may lead to effeciency"
++ "repetition may lead to efficiency"
 + Rapid access for patient
 
 Disadvantages:
 + Block access to other patients.
 
 ### Six Sigma
-*(3,4 mistakes per milllion)*
+*(3,4 mistakes per million)*
 + Strive for perfect process: focus on quality.
 + Statistical analyses of processes:
 eliminate all variations, mistakes etc.
 
 DMAIC cycle:
 + Define: define the problem.
-+ Measure: mesure performance.
++ Measure: measure performance.
 + Analyse: find the causes.
 + Improve: design validate and select solutions.
 + Control: implement solutions.
