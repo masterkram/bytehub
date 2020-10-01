@@ -1,13 +1,13 @@
 {
-  "name": "testd",
+  "name": "bytehub",
   "version": "0.0.1",
-  "description": "test",
+  "description": "Summaries and tips by students for the utwente BIT program",
   "main": "index.js",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "Mark Bruderer",
+    "email": "m.a.bruderervanblerk@student.utwente.nl"
   },
-  "repository": "/testd",
+  "repository": "https://github.com/masterkram/bytehub",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
