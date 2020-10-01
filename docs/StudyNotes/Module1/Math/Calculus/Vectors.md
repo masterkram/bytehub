@@ -1,10 +1,10 @@
 # Vectors
 
 ## Three dimensional coordinate systems.
-additional to x and y axies there is also a z axis in three dimensional coordinate systems.
+additional to x and y axes there is also a z axis in three dimensional coordinate systems.
 
 ### Coordinate planes:
-Coordinate planes are planes that pass through two axies.
+Coordinate planes are planes that pass through two axes.
 
 These are the coordinate planes in three dimensions:
 + xz-plane (y = 0)
@@ -23,6 +23,9 @@ A sphere with center P and radius $r \ge 0$ is defined as the set of all points 
 + This is equivalent to $(x - a)^2 + (y - b)^2 + (z - c)^2 = r^2$
 
 ## Vectors
+Magnitude and direction.
+Example: Speed has a value and a direction.
+
 The vector $\overrightarrow{PQ}$ is the directed line segment with initial point P and terminal point Q.
 
 ### Conventions and notation
@@ -31,6 +34,11 @@ The vector $\overrightarrow{PQ}$ is the directed line segment with initial point
 
 ### Standard position and component form
 
-+ A vector is in **standard position** if the origin is its intitial point.
++ A vector is in **standard position** if the origin is its initial point.
 + If the vector equals OP where O is the origin and P = (x, y, z), then we write **v** on **component form**:
-$v = x, y, z$
+$v = \langle x, y, z \rangle$
+
+Theorem:
+If vector **v** has initial point $P \langle x_1, x_2, x_3 \rangle$ and terminal point $Q \langle x_2, y_2, y_3$ then
+
+$v = \overrightarrow{PQ} = 
