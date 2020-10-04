@@ -46,11 +46,14 @@ module.exports = {
     ['@vuepress/search', {
       searchMaxSuggestions: 4
     }],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-178035298-1'
+      }
+    ],
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
-    'vuepress-plugin-mermaidjs',
-    '@vuepress/plugin-google-analytics', {
-      ga: 'UA-178035298-1'
-    }],
+    'vuepress-plugin-mermaidjs'
 }
