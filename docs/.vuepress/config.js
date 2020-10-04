@@ -56,4 +56,5 @@ module.exports = {
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
     'vuepress-plugin-mermaidjs'
+  ]
 }
