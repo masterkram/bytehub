@@ -39,10 +39,11 @@ The vector $\overrightarrow{PQ}$ is the directed line segment with initial point
 + If the vector equals OP where O is the origin and P = (x, y, z), then we write **v** on **component form**:
 $v = \langle x, y, z \rangle$
 
-#### Theorem:
+::: theorem
 If vector **v** has initial point $P \langle x_1, x_2, x_3 \rangle$ and terminal point $Q \langle x_2, y_2, y_3 \rangle$ then
 
 $v = \overrightarrow{PQ} = \langle x_2 - x_1 , y_2 - y_1, z_2 - z_1 \rangle$
+:::
 
 #### Definition:
 *The length of the vector v with initial point P and terminal point Q is denoted as $|v|$ and is defined as the distance between P and Q.*

@@ -52,6 +52,14 @@ module.exports = {
         'ga': 'UA-178035298-1'
       }
     ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'theorem',
+        before: info => `<div class="theorem"><p class="title">${info}</p>`,
+        after: '</div>',
+      },
+    ],
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
