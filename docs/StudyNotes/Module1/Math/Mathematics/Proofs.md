@@ -20,7 +20,7 @@ The statement is false for n = *value goes here*
 ### Proof by cases:
 Make sure that the cases put together form the entire set you are trying to prove the proposition for.
 
-**THEOREM:** $\text{For every} \, n \in R,\,$ `S(n):` *(...)* 
+**THEOREM:** $\text{For every} \, n \in \mathbb{R},\,$ `S(n):` *(...)* 
 
 **Proof:** By cases
 we distinguish *two* cases
@@ -29,8 +29,8 @@ we distinguish *two* cases
 
 <ins>Case two:</ins> *(...)*
 
-In both cases we proved S(x), since for each $x \in R$
-we have either *case one* or *case two* we proved that S(x) holds for all $x \in R$
+In both cases we proved S(x), since for each $x \in \mathbb{R}$
+we have either *case one* or *case two* we proved that S(x) holds for all $x \in \mathbb{R}$
 $\square$
 
 ---
