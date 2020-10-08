@@ -33,6 +33,6 @@ if you want solutions you have to translate between the two groups.
 
 ## study planning
 
-::: danger
-if BSA < 75% you are not allowed to continue.
+::: danger BSA Warning
+if BSA < 45 ECs you are not allowed to continue.
 :::

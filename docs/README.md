@@ -16,7 +16,7 @@ footer:
 ---
 
 <div class="link-footer">
-Made with ❤ by <a href="https://github.com/masterkram/bytehub/graphs/contributors">contributors</a>
+Made with ❤ by <a href="https://github.com/masterkram/bytehub/graphs/contributors">contributors.</a>
 <br />
-Want to become a contributor ? <a href="/contributing">get started</a>
+Want to become a contributor ? <a href="/contributing">get started.</a>
 </div>

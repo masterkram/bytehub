@@ -5,7 +5,9 @@ permalink: /contributing
 
 # Contributing
 
-There are two main ways to contribute to this project: making a pull request and sending us your notes.
+There are two main ways to contribute notes to this project:
+1. making a pull request
+2. sending us your notes.
 
 In both of these ways you get credits at the bottom of your notes and a personal "thank you".
 
