@@ -46,7 +46,7 @@ if f(x) tends to L whenever x tends to c.
 + while x approaches c (but is never equal to c), it must be an element of D.
 
 ::: theorem Replacement Theorem
-If $f(x) = g(x) \text{ for all } x \neq c \text{ then } \lim_{x \to c} f(x) = \lim_{x \to c} g(x)$
+If $f(x) = g(x) $\forall x \neq c \text{ then } \lim_{x \to c} f(x) = \lim_{x \to c} g(x)$
 :::
 
 #### One-sided limits
@@ -102,11 +102,11 @@ $\lim_{x \to c} f(x) = f(c)$
 ## Replacement Rule
 
 ::: theorem Theorem (weak)
-If $f(x) = g(x) for all x \neq c, then \lim_{x \to c} f(x) = \lim_{x \to c} g(x)$
+If $f(x) = g(x) $\forall x \neq c, then \lim_{x \to c} f(x) = \lim_{x \to c} g(x)$
 :::
 
 ::: theorem Theorem (strong)
-Let I be an open interval containing c. If $f(x) = g(x) for all x \in I$,
+Let I be an open interval containing c. If $f(x) = g(x) $\forall x \in I$,
 then $\lim_{x \to c} f(x) = \lim_{x \to c} g(x)$
 :::
 
@@ -140,7 +140,7 @@ indecisive result.
 + a + b is the conjugate of a - b (and vice versa)
 
 ## The sandwich theorem
-+ Let f, g and h functions such that $g(x) \leq f(x) \leq h(x) \text{ for all } x \neq c$
++ Let f, g and h functions such that $g(x) \leq f(x) \leq h(x) $\forall x \neq c$
 + f is "sandwiched" between g and h.
 
 ::: theorem Theorem
@@ -225,7 +225,7 @@ If f is continuous at c, and g is continouous at f(c), then $g \circ f$ is conti
 
 ::: theorem Definition
 + Let I be an interval in $\mathbb{R}$. A function f is **continuous on** I if
-for all $c \in I$ the function f is continuous in c.
+$\forall $c \in I$ the function f is continuous in c.
 + A function f is continuous if f is continuous on its domain.
 :::
 
@@ -248,5 +248,5 @@ and using algebraic operations like:
 :::
 
 + All formula functions are continuous.
-+ For all formula functions f and for all $c \in Dom(f)$:
++ For all formula functions f and $\forall $c \in Dom(f)$:
 $\lim_{x \to c} f(x) = f(c)$
