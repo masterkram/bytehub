@@ -7,10 +7,6 @@
 $|A \cup B| = |A| + |B| - |A \cap B|$
 $|A \cup B \cup C| = |A| + |B| + |C| − |A \cap B| − |A \cap C| − |B \cap C| + |A \cap B \cap C|$
 
-`Products:`
-
-$|A \cup B| = |A| \dot |B|$
-
 ## Permutations with repetition:
 >Order does not matter
 >

@@ -60,6 +60,14 @@ module.exports = {
         after: '</div>',
       },
     ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'author1',
+        before: info => `<div class="theorem"><p class="title">${info}</p><div class="author">`,
+        after: '</div></div>',
+      },
+    ],
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
