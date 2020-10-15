@@ -121,7 +121,7 @@ in real life you just *insert* the card at the correct place but in java you nee
     }
 ```
 ### Bubble Sort
-::: Bubble Sort
+::: theorem Bubble Sort
 This is a slow sorting algorithm that checks successive elements of an array
 are they in order ? no -> swap, yes -> next pair.
 :::
