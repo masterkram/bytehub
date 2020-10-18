@@ -89,7 +89,7 @@ You want tof find the relationship between two variables. how does x influence y
 A Model Is a graph with variables:
 ```mermaid
 graph LR;
-Variable1 ---> Variable2;
+Variable1 --> Variable2;
 ```
 
 ## Phase 4: Solution generation.
