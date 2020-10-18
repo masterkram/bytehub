@@ -1,11 +1,10 @@
 # Research Methodology
 
-
-*general toolset for problem solving*
+*general toolkit for problem solving*
 can be used on different domains
 
 study evaluation and design methods and techniques to systematically and transparently
-take on the journey to move from a problem or challenge in practive and or theory to an evidence based
+take on the journey to move from a problem or challenge in practice and or theory to an evidence based
 solution or answer.
 
 ```mermaid
@@ -13,41 +12,34 @@ graph TD;
 Problem --> Something --> Solution;
 ```
 
-**do not overcomplicate.**
-
 ### BIT examples:
 + Business process modelling
-	+ Process optimisation
+	+ Process optimization
 + Simulation
 	+ Emergency response
 	+ HR config
 	+ Warehousing
 + Business & IT alignment
-	+ Organisation IT architecture
+	+ Organization IT architecture
 
 
 know how the process works at this moment
 + desk research
-heuristicsinterviews
-get input for the optimisation
+heuristics interviews
+get input for the optimization
 
 
 ### Investigative abilities:
-+ Investigative attiude
-	+ Being critical
-	+ Willing to understand
-	+ Willing to share
-	+ Willing to know
-	+ Willing to innovate
++ Investigative attitude
 + Being able to apply knowledge from others
 + Being able to do research
 
 
-### Applied Reasearch
+### Applied Research
 aimed at solving practical problems.
 + Theory and research methods are not being tested.
 
-### Fundamental Reasearch
+### Fundamental Research
 aimed at generating new (scientific) knowledge
 that can be used to solve practical problems.
 + Theory and research methods are being tested.
@@ -65,24 +57,16 @@ i.e organizational research
 3. Ph.D. : Society and science
 
 ### Research types
-+ Induction: Knowing, Generalisability, new Knowledge
-+ Deduction: Enhance, Contextualised usable knowledge
-
-Example:
-
-
-| Description | Action Problem | Knowledge Problem |
++ Induction: Knowing, Generalize, new Knowledge
++ Deduction: Enhance, Contextualized usable knowledge
 
 ```mermaid
 graph LR;
 Problem --> Diagnose --> Plan --> Implement --> Evaluate
 ```
 
-Problem Identification research, Diagnostic research
-Design research, Monitoring research, Evaluative research
-
 ## Steps
-
+::: theorem Structure
 1. Introduction
 *Convince people you know the problem*
 	+ Justification
@@ -112,16 +96,11 @@ Design research, Monitoring research, Evaluative research
 	+ Problem or challenge 2
 	+ Main Problem
 
-6. Recomendations
+6. Recommendations
 *How do the findings have impact*
 	+ Main findings
 	+ Practical implications
 	+ scientific implication
 
 7. Reference list
-
-
-Course Structure:
-multiple choice test.
-pass/fail assignments.
-
+:::
