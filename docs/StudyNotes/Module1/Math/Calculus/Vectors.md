@@ -110,7 +110,7 @@ $u \cdot v = v_1u_1 + v_2u_2 + ... + u_nu_v$
 + $u \cdot v = v \cdot u$
 + $(cu) \cdot v = u \cdot (cv) = c(u \cdot v)$
 + $u \cdot (v + w) = u \cdot v + u \cdot w$
-+ $u \cdot u = u^2$
++ $u \cdot u = |u|^2$
 + $u \cdot 0 = 0$
 
 ### The angle between unit vectors.
@@ -153,7 +153,7 @@ $proj_v(w) = (\frac{w \cdot v}{|v|^2})v$
 ::: theorem Definition
 Let $u = \langle u_1, u_2, u_3 \rangle\, , v = \langle v_1, v_2, v_3 \rangle$ be two vectors in $\mathbb{R}^3$ the cross product of u and b is:
 
-$u \times v = \langle u_2u_3 - u_3v_2, u_3v_1 - u_1v_3, u_1v_2 - u_2v_1 \rangle$
+$u \times v = \langle u_2v_3 - u_3v_2, u_3v_1 - u_1v_3, u_1v_2 - u_2v_1 \rangle$
 :::
 
 #### Cross Product Template:
@@ -208,9 +208,21 @@ where $p = \overrightarrow{OP}$
 
 #### Planes by normal vector:
 + If n is a normal vector of M, then for every $X \in M n \perp \overrightarrow{PX}$
-+ if $p = \,\overrightarrow{OP} \text{ and } x = \,\overrightarrow{OX}\text{ , then n }\cdot (x - p) = 0$ this equation is called the **normal equation** of M.
++ if $p = \,\overrightarrow{OP} \text{ and } x = \,\overrightarrow{OX}\text{ , then } n \cdot (x - p) = 0$ this equation is called the **normal equation** of M.
 
 #### Planes determined by three points:
 How to find a normal vector:
 If P, Q and T are three points (not on a line), a normal vector of the plane can be found by taking a cross product, for example: $n = \overrightarrow{PQ} \times \overrightarrow{PR}$
 
+#### Method: Finding a plane equation from three points
+*The Plane W goes through three points A, B and C.*
+
+*Determine an equation for the plane W of the form $ax+by+cz-d = 0$*
+
+1. Find a normal vector for the plane W.
+    + Find a vector: $\overrightarrow{AB} = \langle B_1 - A_1, B_2 - A_2, B_3 - A_3 \rangle$
+    + Find another vector:  $\overrightarrow{AC} = \langle C_1 - A_1, C_2 - A_2, C_3 - A_3 \rangle$
+    + Find the cross product of the vectors **AB** and **AC** (we use u and v for readability) $n = u \times v = \langle u_2v_3 - u_3v_2, u_3v_1 - u_1v_3, u_1v_2 - u_2v_1 \rangle$
+2. Find a support vector p, which is a vector from the origin to any point on the plane.
+    + Choose $p = \overrightarrow{OA}$
+3. Replace n and p in $n \cdot (x - p) = 0$ (x can be replaced with $\langle x, y, z \rangle$)
