@@ -42,6 +42,7 @@
         <br/>
         <textarea
         id="notesTextArea"
+        name="notes"
         placeholder="Write something..."
         v-model="notes"
         ></textarea>
@@ -78,7 +79,6 @@
 
             if (this.errors.length === 0) {
                 this.$refs['success-msg'].textContent = `✔ Submited! Thank you ${this.author}`;
-                console.log("safadsfd");
                 e.preventDefault();
                 return true;
             }
