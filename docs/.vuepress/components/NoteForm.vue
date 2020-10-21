@@ -42,7 +42,7 @@
         <br/>
         <textarea
         id="notesTextArea"
-        name="notes"
+        name="myNotes"
         placeholder="Write something..."
         v-model="notes"
         ></textarea>
@@ -61,8 +61,8 @@
     data: () => ({
         errors: [],
         author: "",
-        notes: null,
-        classId: null
+        notes: "",
+        classId: "",
     }),
     methods:{
         checkForm: function (e) {
