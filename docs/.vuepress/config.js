@@ -2,6 +2,7 @@ const { description } = require('../../package')
 const {nav, sidebar} = require("vuepress-bar")(`${__dirname}/..`, {maxLevel: 10});
 
 sidebar.pop(); // remove contributing from auto sidebar.
+sidebar.pop();
 
 module.exports = {
   /**
@@ -66,6 +67,14 @@ module.exports = {
         type: 'author1',
         before: info => `<div class="theorem"><p class="title">${info}</p><div class="author">`,
         after: '</div></div>',
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'footer',
+        before: info => `<div class="link-footer">`,
+        after: '</div>',
       },
     ],
     'vuepress-plugin-smooth-scroll',
