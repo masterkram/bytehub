@@ -91,7 +91,7 @@ Let f be a function of two variables.
 
 If, after transformation to
 polar coordinates, f(x, y) can be written in the form:
-$$f(r\cos{\theta}, r\sin{\theta} = r^{\alpha}g(\theta))$$
+$$f(r\cos{\theta}, r\sin{\theta}) = r^{\alpha}g(\theta)$$
 with:
 + $\alpha \gt 0$
 + $g(\theta)$ bounded function.
@@ -99,6 +99,8 @@ with:
 then:
 
 $$\lim_{(x,y) \to (0,0)} f(x, y) = 0$$
+
++ If the two requirements are not satisfied the limit most likely does not exist.
 :::
 
 ## Partial Derivatives
