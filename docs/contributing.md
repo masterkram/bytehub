@@ -19,4 +19,6 @@ Talk to us on  discord. Such that I can invite you to be a contributor on the pr
 
 
 ## Option 2: (EZ)
-Send me an <a href="mailto:m.a.bruderervanblerk@student.utwente.nl?subject=ByteHub%20Notes">email</a> with your notes.
+Send in this form :mailbox_with_mail:
+
+<NoteForm />
