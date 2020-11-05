@@ -1,7 +1,6 @@
 <template>
     <form
     id="notes"
-    @submit="checkForm"
     method="POST"
     data-netlify="true"
     >
@@ -50,7 +49,6 @@
 
     <p>
         <button type="submit">Send</button>
-        <span id="success-msg"></span>
     </p>
 
     </form>
@@ -65,26 +63,6 @@
         classId: "",
     }),
     methods:{
-        checkForm: function (e) {
-            this.errors = [];
-
-            if (!this.notes) {
-                this.errors.push('Notes required.');
-            } else if (this.notes.length <= 100) {
-                this.errors.push('Please enter at least 100 characters.')
-            }
-            if (!this.classId) {
-                this.errors.push('Class required');
-            }
-
-            if (this.errors.length === 0) {
-                this.$refs['success-msg'].textContent = `✔ Submited! Thank you ${this.author}`;
-                e.preventDefault();
-                return true;
-            }
-
-            e.preventDefault();
-        }
     }
   }
 </script>
