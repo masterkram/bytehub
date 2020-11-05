@@ -4,7 +4,7 @@ heroImage: /campaign_launch.png
 heroText: BIT Notes
 tagline: Summaries for every lecture
 actionText: Go to Notes →
-actionLink: /studynotes/
+actionLink: /study-notes/
 features:
 - title: Simplicity First 
   details: We try to present only the necessary information in the most understandable way.
