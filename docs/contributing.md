@@ -22,3 +22,7 @@ Talk to us on  discord. Such that I can invite you to be a contributor on the pr
 Send in this form :mailbox_with_mail:
 
 <NoteForm />
+
+::: footer
+List of current [contributors](/contributors).
+:::

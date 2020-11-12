@@ -13,6 +13,10 @@
     </div>
 </div>
 
+::: footer
+Want to be on this list ? [get started](/contributing).
+:::
+
 <script>
 const axios = require('axios')
 export default {
