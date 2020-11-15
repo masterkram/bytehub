@@ -87,13 +87,5 @@ module.exports = {
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
     'vuepress-plugin-mermaidjs',
-    [
-      'vuepress-plugin-clean-urls',
-      {
-        normalSuffix: '',
-        indexSuffix: '/',
-        notFoundPath: '/404.html',
-      },
-    ],
   ]
 }
