@@ -22,6 +22,7 @@ Please read more about Vuepress's markdown syntax [here](https://vuepress.vuejs.
 The following plugins that extend vuepress's markdown are installed:
 + [mathjax](https://www.mathjax.org/) For LaTeX use in markdown.
 + [mermaidjs](https://mermaid-js.github.io/mermaid/#/) Used for quick diagrams in markdown.
++ [plantuml](https://plantuml.com/) For UML diagrams.
 
 ## Deployment
 + Master is automatically deployed to production by netlify.

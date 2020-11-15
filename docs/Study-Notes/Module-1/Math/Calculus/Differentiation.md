@@ -1,7 +1,7 @@
 # Differentiation.
 *It's a warm summer evening in ancient Greece...*
 
-::: author1 Apollonius of Perga
+::: author Apollonius of Perga
 <img src="./aperga.jpeg" class="avatar" />
 A tangent to a curve C is a line l that intersects C, such that
 no other line could fall between l and C.

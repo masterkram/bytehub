@@ -38,6 +38,12 @@ module.exports = {
     lastUpdated: 'Last Updated'
   },
 
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-plantuml'))
+    }
+  },
+
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
@@ -64,7 +70,7 @@ module.exports = {
     [
       'vuepress-plugin-container',
       {
-        type: 'author1',
+        type: 'author',
         before: info => `<div class="theorem"><p class="title">${info}</p><div class="author">`,
         after: '</div></div>',
       },
@@ -80,6 +86,14 @@ module.exports = {
     'vuepress-plugin-smooth-scroll',
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
-    'vuepress-plugin-mermaidjs'
+    'vuepress-plugin-mermaidjs',
+    [
+      'vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '',
+        indexSuffix: '/',
+        notFoundPath: '/404.html',
+      },
+    ],
   ]
 }
