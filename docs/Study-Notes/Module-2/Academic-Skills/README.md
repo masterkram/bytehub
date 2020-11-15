@@ -1,43 +1,33 @@
 # Academic Skills
 
-+ Programming is a skill.
-+ The set of skills is called "Computational Thinking"
-    + It is independent from any programming language syntax.
-+ Working together with an experienced programmer is one of the best ways to learn how to code.
++ *Computational Thinking*
+    + Is a set of skills.
+    + Is independent from any programming language syntax.
++ Working together with an experienced programmer is one of the best ways to learn.
 
 ## Computational Thinking
+Set of skills:
 + Decomposition.
 + Pattern Recognition.
 + Algorithmic Design.
 + Abstraction.
 
 ## Cognitive Load Theory
-Helps us understand why some topics are harder than others and how mastery can be achieved.
+Explains why some topics are harder than others.
 
-Problem solving is one of the hardest skill to learn.
+Problem solving is one of the hardest skills to learn.
 
-Automate intellectual operations.
-
+Composed of the following types of load:
 + Intrinsic load: topic difficulty.
 + Germane load: prior knowledge.
-+ Extraenous load.
-
-Schema Aquisition + Controlled +
++ Extraneous load: how information is presented by teachers. sometimes a picture is worth 1000 words.
 
 ## Metacognition
-
-Metadata is the data describing the data.
 Metacognition is thinking about how you think.
 
-Studying efficiently
++ Goal: Studying efficiently.
++ How: discover your learning style.
 
-What am i going to learn?
-What type of construct is that? practical ?
-theoretical?
+*How do you discover your learning style ?*
 
-Preparation.
-Negotiation
-Enabling
-Closure
-
-discover your learning style.
+Good question, it was not covered in this lecture, In my experience a good way to do this is to ask a fellow student how they study or observe them while they are studying. If you notice differences try them out and evaluate for yourself if they work better or worse than your current technique, If you notice an improvement try to figure out if you can maximize the profit, by trying similar tactics or analyzing what senses, environment etc.. are being used.
