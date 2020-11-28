@@ -6,12 +6,11 @@ Version control was created to make it possible to orderly store multiple versio
 #### Local version control
 This method stores versions of your files in a **repository** (folder), while the latest version of the version you’re currently working on (**working copy**) is separately stored on your computer.
 
-<img src="./lcv.png" />
+<img src="./lvc.png" />
 
 #### Central version control
 There’s a central server which contains the repository, it communicates with multiple other computers which all have their own working copies (they do share the same repository). 
 <img src="./cvc.png" />
-
 
 
 #### Distributed version control
@@ -25,7 +24,7 @@ With version control it's easy to undo earlier changes without affecting other c
 
 
 #### Push and pull
-To save the local repository to the central repository we use ```git push```. To save the central repository to the local repository we use ```git pull```. This process ensures that the copies of a repository are synchronized.
+To save the local repository to the central repository we use `git push`. To save the central repository to the local repository we use `git pull`. This process ensures that the copies of a repository are synchronized.
 
 <img src="./pp.png" />
 
@@ -54,10 +53,4 @@ Conventions are that releases are kept on main (testing of releases is done on r
 
 <img src="./gitflow.png" />
 
-
-
-
-
-
-
-
+<p class="contributor">Written By: Daniël Lizarazo Fuentes</p>
