@@ -4,7 +4,7 @@ Version control was created to make it possible to orderly store multiple versio
 
 ### What types of version control are there and how do they work?
 #### Local version control
-This method stores versions of your files in a repository (folder), while the latest version of the version you’re currently working on (working copy) is separately stored on your computer.
+This method stores versions of your files in a **repository** (folder), while the latest version of the version you’re currently working on (**working copy**) is separately stored on your computer.
 
 <img src="./lcv.png" />
 
@@ -15,7 +15,7 @@ There’s a central server which contains the repository, it communicates with m
 
 
 #### Distributed version control
-Just like in central version control this method also has a central server containing a central repository. But this same repository is also copied onto the local computers, meaning everyone is continually cloning (copying) this central repository to their computers. The local computers still have a working copy which can be stored (committed) to the local repository which in turn can be saved to the central repository. An example of distributed version control is git.
+Just like in central version control this method also has a central server containing a central repository. But this same repository is also copied onto the local computers, meaning everyone is continually **cloning** (copying) this central repository to their computers. The local computers still have a working copy which can be stored (**committed**) to the local repository which in turn can be saved to the central repository. An example of distributed version control is git.
 <img src="./dvc.png" />
 
 ### Tools of git
@@ -25,7 +25,7 @@ With version control it's easy to undo earlier changes without affecting other c
 
 
 #### Push and pull
-To save the local repository to the central repository we use git push. To save the central repository to the local repository we use git pull. This process ensures that the copies of a repository are synchronized.
+To save the local repository to the central repository we use ```git push```. To save the central repository to the local repository we use ```git pull```. This process ensures that the copies of a repository are synchronized.
 
 <img src="./pp.png" />
 
@@ -35,11 +35,11 @@ When u and your friend make changes in the same part of the same file a push and
 
 
 #### Branching
-Branching means you diverge from the main line of development and continue to do work without messing with the main line. This separate line of development can be combined (merged) with the other lines of development. The working copy on a local computer can easily switch between branches. The main branch is normally called master.
+Branching means you diverge from the main line of development and continue to do work without messing with the main line. This separate line of development can be combined (**merged**) with the other lines of development. The working copy on a local computer can easily switch between branches. The main branch is normally called master.
 <img src="./branching.png" />
 
 #### Staging
-Stage and Commit: A commit in git is performed in two steps: staging and actual commit. Staging informs the repository about the existence of a file that is to be committed. Committing is saving the changes in the working copy to the local repository.
+Stage and Commit: A commit in git is performed in two steps: staging and actual commit. **Staging** informs the repository about the existence of a file that is to be committed. Committing is saving the changes in the working copy to the local repository.
 
 ### Gitflow conventions
 ::: tip
