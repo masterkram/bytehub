@@ -23,7 +23,7 @@ export default {
   data () {
       return {
           items: [],
-          quotes: {"masterkram": "Life is a box."},
+          quotes: {"masterkram": "Life is a box.", "Pablito-Escobar-dev": "I ambush the enemy from the front"},
       }
   },
   beforeMount() {
