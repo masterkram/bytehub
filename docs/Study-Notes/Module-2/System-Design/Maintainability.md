@@ -38,7 +38,7 @@ The Cyclomatic Complexity of a method is expressed as **M**. To calculate it we 
 + An edge is an arrow
 :::
 
-img1:flowgrpahs CC
+<img src="./flowGraphs.png"/>
 
 ::: tip
 Cyclomatic complexity (M) = #edges - #nodes+2 = (#edges - #nodes+1)+1 = #branch nodes + 1
@@ -46,7 +46,7 @@ Cyclomatic complexity (M) = #edges - #nodes+2 = (#edges - #nodes+1)+1 = #branch 
 
 In a connected graph with one start node, one end node and only binary decisions (i.e. decision nodes have 2 outgoing branches), the latter part is used. An example:
 
-img2: Example flow graph
+<img src="./exampleFlowGraph.png"/>
 
 If cyclomatic complexity is low then testability and maintainability is improved. Guideline is that Cyclomatic complexity should be 5 or lower.
  
@@ -54,7 +54,7 @@ If cyclomatic complexity is low then testability and maintainability is improved
 #### Possible execution paths 
 When testing it’s important to know how many possible execution paths there are, these are possible ways to go through leading to different outcomes. The amount of possible execution paths is equal to the amount of required rest cases, see illustration below in which each colored line is a different execution path.
 
-img3: possible execution paths
+<img src="./executionPaths.png"/>
 
 #### Weighted methods per class 
 The weighted methods (**WMC**) per class describes the overall complexity of all methods in a class.
@@ -66,7 +66,7 @@ The instability of a class is an important metric of its complexity. But to calc
 #### Coupling between classes
 To understand instability we’ll take a look at an example. Say there are two classes A and B with their own variables and methods (see image below).
 
-img4: coupling between classes
+<img src="./couplingClasses.png"/>
 
 In this case Class A is coupled to class B because Class A is dependent on class B. That holds true because:
 + Methods in A invoke methods declared in B
@@ -82,13 +82,13 @@ For A this is called efferent (outgoing) coupling .
 Afferent coupling (written as **CA**) of a class C = the number of classes that call methods (and/or access attributes) of C.
 Or: the number of classes that depend on C. In a visualisation
 
-img5: CA
+<img src="./CA.png"/>
 
 **CE: Efferent (outgoing) coupling**
 Efferent coupling (written as **CE**) of a class C = the number of classes with methods that are called by C (or have attributes accessed by C).
 Or: the number of classes on which C is dependent. In a visualisation: 
 
-img6: CE
+<img src="./CE.png"/>
 
 With this information we can calculate the instability (**I**):
 
@@ -118,7 +118,7 @@ Low cohesion in a class:
 :::
 
 An example:
-img7: simmilar/dissimilar
+<img src="./similarDissimilar.png"/>
 
 ##### LCOM1
 LCOM is equal to the surplus of dissimilar pairs. There are two ways LCOM can be calculated, LCOM1 and LCOM2. Let’s quickly look at LCOM1:
@@ -132,10 +132,10 @@ So that:
 :::
 
 Example:
-img8: LCOM1 
+<img src="./LCOM1.png"/>
 
 So to improve the LCOM on the basis of LCOM1 the result would be:
-img9: LCOM1 improvement
+<img src="./LCOM1Improvement.png"/>
 
 ##### LCOM2 (used by Eclipse)
 The other method, LCOM2 is calculated differently, so we take a different approach. Let a class have:
@@ -149,7 +149,7 @@ So LCOM2=(m-avg(mA))/(m-1)
 :::
 
 Examples:
-img10: LCOM2 examples
+<img src="./LCOM2.png"/>
 
 Other metrics that can be looked at are the Depth of Inheritance Tree (DIT) and Number of Parameters of a Method (PAR).
 
