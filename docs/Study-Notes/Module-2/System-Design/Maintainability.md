@@ -93,7 +93,7 @@ Or: the number of classes on which C is dependent. In a visualisation:
 With this information we can calculate the instability (**I**):
 
 ::: tip
-I=CE/(CA+CE) 
+$$I = \frac{CE}{(CA+CE)}$$
 
 With:
 + CA = # classes outside this package that depend on classes within this package.
@@ -139,13 +139,13 @@ So to improve the LCOM on the basis of LCOM1 the result would be:
 
 ##### LCOM2 (used by Eclipse)
 The other method, LCOM2 is calculated differently, so we take a different approach. Let a class have:
-+ a attributes A1…Aa
-+ m methods M1…Mm (only methods which access attributes, others don’t count)
-+ mAk = # methods that access Ak
-+ avg(mA) = average mAk for k=1…a = <insert latex stuff>
++ a attributes $A_1$…$A_a$
++ m methods $M_1$…$M_m$ (only methods which access attributes, others don’t count)
++ $mA_k$ = # methods that access $A_k$
++ avg(mA) = average $mA_k$ for k=1…a = $$\frac{1}{a} \sum_{k=1}^{a}mA_k$$
  
 ::: tip
-So LCOM2=(m-avg(mA))/(m-1)
+So: $$LCOM2 = \frac{m-avg(mA)}{m - 1}$$
 :::
 
 Examples:
