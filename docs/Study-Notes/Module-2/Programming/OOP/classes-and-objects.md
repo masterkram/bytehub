@@ -1,4 +1,4 @@
-# OOP
+# Classes and Objects
 
 ::: theorem OOP
 
