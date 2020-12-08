@@ -1,4 +1,4 @@
-# Variables
+# Variables and Subroutines
 
 + A way to refer to an unknown value
 + Variable is a name for
@@ -53,25 +53,25 @@ String done = "done!"; // String assignment
 + With `&` and `|` both sides are evaluated
 
 ## Subroutines
+Used to reduce repetition.
 
-Sequence of instructions could get long or may contain repetition
-• Structuring and reusability have motivated subroutines
-→ pieces of code that can be ‘called’ in a certain program
-• Execution flow moves to subroutine and returns possibly with result
-Example
-• Method Math.sqrt(x) can be used to calculate the square root of x
-• No need to know how Math.sqrt(x) is implemented (black box)
-• Others: System.out.print(text), System.out.println(text)
++ Subroutines are created to improve structure and to allow for reusability of code.
++ Execution flow moves to subroutine and may return a result.
+
+### Example
++ The Method or subroutine `Math.sqrt(x)` can be used to calculate the square root of x.
++ You don't need to know how `Math.sqrt(x)` is implemented. **(black box)**
 
 ## Strings
 
-String is a pre-defined Java class to represent pieces of text
-+ Example: String advice = "Seize the day!";
-+ Some functions:
-+ int s1.length(): returns length of s1
-+ boolean s1.equals(s2): returns true if s1 and s2 are the same String
-+ char s1.charAt(n): returns char value in position n (first position 0!)
-+ Concatenate Strings: "Hello " + "World" same as "Hello World" 
+String is a pre-defined Java class to represent pieces of text.
++ Example: `String advice = "Seize the day!";`
+
+### String functions:
++ `int s1.length()`: returns length of s1
++ `boolean s1.equals(s2)`: returns true if s1 and s2 are the same String
++ `char s1.charAt(n)`: returns char value in position n (first position 0!)
++ Concatenate Strings: `"Hello " + "World"` same as `"Hello World"`.
 
 ## Print guide
 
