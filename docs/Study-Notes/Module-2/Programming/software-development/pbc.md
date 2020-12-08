@@ -59,3 +59,24 @@ the program designer must specify the conditions for objects of this class to wo
         + preconditions hold.
         + postconditions hold.
         + invariants are maintained.
+
+## Contracts for overriding methods
+
++ Contract in supertype: general, weak enough to allow overriding
+```java
+public interface ClosedFigure {
+/*@ ensures \result > 0; */
+public int circumference();
+}
+```
++ Specialized contract in subtype: specific, concrete & stronger
++ The same or weakened precondition
++ The same or strengthened postcondition
+```java
+public class Circle implements ClosedFigure {
+/*@ ensures \result == 2 * Math.PI * radius(); */
+public int circumference() { ... }
+}
+```
++ Contract of original method is respected
++ Calling circumference on a ClosedFigure will meet expectations

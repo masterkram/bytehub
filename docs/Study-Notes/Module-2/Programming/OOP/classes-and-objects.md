@@ -24,10 +24,8 @@ a design principle for separating a computer program into distinct sections such
 
 + a Class is extensible code for creating objects (a blueprint for an object)
 + Object is an instance of a class. (built according to a class)
-
 + In OOP a program is a collection of objects that interact with each other.
 + Each object is an *instance* of a class.
-
 + Objects contain state and behavior
 
 **properties represent the state of an object:**
