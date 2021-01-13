@@ -111,7 +111,7 @@ class Box {
 | - | - | - | - | - |
 | public | yes | yes | yes | yes | yes |
 | private | yes |   |   |   |   |
-| protected | yes | yes |   |   |   |
+| protected | yes | yes | yes |   |   |
 | none | yes | yes | yes |   |   |
 
 ## Static variables
