@@ -186,7 +186,7 @@ class PrintWriter extends Writer {
     + print()
     + println()
 }
-BufferedWriter extends Writer
+class BufferedWriter extends Writer
 BufferedWriter -- Writer
 class OutputStream
 OutputStream -- OutputStreamWriter
