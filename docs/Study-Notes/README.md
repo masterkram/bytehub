@@ -1,6 +1,6 @@
 # BIT
 
-## what is bit ?
+## What Is BIT ?
 
 - business holds problems.
 - IT holds many of the solutions.
@@ -12,20 +12,20 @@ Choosing a domain: IT and looking what solutions it offers for businesses.
 
 see how technologies can be implemented in organizations
 
-## why bit ?
+## Why bit ?
 
 interface between two groups.
 IT culture / business culture is **very** different
 
 if you want solutions you have to translate between the two groups.
 
-## course structure
+## Course Structure
 
 + 5 years in total
     + 3 bachelor - minor in third year
     + 2 master
 
-### bit bachelor
+### Bit Bachelor
 
 [curriculum](https://www.utwente.nl/en/bit/curriculum/bitcurriculum2020-1/)
 
