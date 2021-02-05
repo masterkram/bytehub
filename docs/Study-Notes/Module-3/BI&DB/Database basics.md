@@ -80,3 +80,27 @@ The system catalog stores:
 + management system (DBMS): MySQL, Oracle etc.
 + Operations system
 + Application programs: computer program that a user can interact with the database (java, c++ C# etc.)
+:::
+## DataBase Management System (DBMS)
+A DBMS is a software system that enables users to define, create, maintain, and control access to the database. It consists of software that organizes the storage of data and Interfaces between applications and physical data files. 
+
+A DBMS is divided into multiple Database Management System Facilities.
++ Data definition language (DDL).
++ Data manipulation language (DML).
++ Data control language (DCL).
+
+<img src= ./dmsf.png/>
+
+DBMS has multiple advantages like:
++ data consistency
++ sharing of data
++ improved data integrity
++ improved security
+
+Disadvantages:
++ Complexity
++ Size
++ Cost of DBMS
++ Cost of conversion
++ Performance
++ Greater impact of a failure
