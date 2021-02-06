@@ -104,3 +104,15 @@ Disadvantages:
 + Cost of conversion
 + Performance
 + Greater impact of a failure
+
+## Three-level ANSI-SPARC Architecture
+### ANSI-SPARC Architecture
+ANSI stands for American National Standards Institute while SPARC stands for 
+Standards Planning and Requirements Committee. An ANSI-SPARC architecture is an abstract design standard for a Database Management System (DBMS).
+
+### Three-level Architecture
+A database architecture can be divided into three levels:
++ Internal level: For systems designers
++ Conceptual level: For database designers and administrators
++ External level: For database users
+
