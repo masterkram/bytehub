@@ -1,4 +1,4 @@
-#Database introduction and design
+# Database introduction and design
 
 ## File-based system and Database system
 
@@ -16,7 +16,8 @@ Information
 - Processed data and organized text
 - Is knowledge about a particular subject
   :::
-  Data can be stored in a file, a file is an object on a computer that stores data or a resource on the computer for recording data.
+
+Data can be stored in a file, a file is an object on a computer that stores data or a resource on the computer for recording data.
 
 We can store data and display information in two main ways:
 
@@ -121,7 +122,7 @@ DBMS has multiple advantages like:
 - improved data integrity
 - improved security
 
-Disadvantages:
+But also disadvantages like:
 
 - Complexity
 - Size
