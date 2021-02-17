@@ -60,6 +60,7 @@ We will use these operations to reduce an augmented matrix to either the echelon
 
 ::: theorem Echelon form
 A matrix is in echelon form if
+
 - Nonzero rows are situated above zero rows.
 - The first nonzero entry (the pivot entry) of a row is always in a column to the right of the pivots of the rows above it.
 
@@ -87,10 +88,40 @@ Example:
 0 & 1 & 0 & 4 \\
 0 & 0 & 1 & 9 \\
 \end{array}\right]
-  :::
+:::
 
 The solution set can be found by applying the elementry operations:
 
+\left[\begin{array}{rrrr|r}
+5 & -3 & -19 & 1 & -7 \\
+0 & -3 & -9 & -2 &3 \\
+15 & -6 & -48 & 6 & -24 \\
+\end{array}\right]
+
+After multiple elementry operations we get it in reduced echelon form:
+
+\left[\begin{array}{rrrr|r}
+1 & 0 & -2 & 0 & -2 \\
+0 & 1 & -3 & 0 & -1 \\
+0 & 0 & 0 & 1 & 0 \\
+\end{array}\right]
+
+The **Parametric description** of the solution set then can be given as:
+\begin{Bmatrix}
+x_1=-2+2x_3\\
+x_2=-1+3x_3\\
+x_3 is free\\
+x_4=0\\
+\end{Bmatrix}
+
+The above is a parametric description of the solution set, this can easily be transformed to a vector description using collumn vectors:
+
+\begin{pmatrix}-2 \\-1\\0\\0 \end{pmatrix}+x_3\begin{pmatrix}2 \\3\\1\\0 \end{pmatrix}
+As you might notice we first take all the constants in the first collum vector (and 0 for the free variable) and then for each free variable we create a collum vector in which the collumnumber of the free variable gets 1 and then all the mutiples of the free varialbe in the other rows.
+
+These two are both solution sets descriptions. 
+
+But sometimes it doesn't work out:
 \left[\begin{array}{rrr|r}
 2 & -4 &-4& 1 \\
 2 & -4 &-4& 6 \\
@@ -112,10 +143,5 @@ Then we identify that the second colum also is a pivot colum, so to create a piv
 \end{array}\right]
 
 Now our augmented matrix is in echelon form and we notice that the system is inconsistent as it states that 0 = 5. So it has no solutions (that also could've been noticed upon first sight here but sometimes you find out later).
-
-
-
-parametric
-vector
 
 ## Homogeneity
