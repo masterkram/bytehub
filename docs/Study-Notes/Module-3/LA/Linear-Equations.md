@@ -44,6 +44,7 @@ The above matrix can be rewritten as:
 When we have a matrix we want to get a set of all possible solutions for the set of linear equations, we call this set the **soluatin set**
 ::: tip
 A linear system is **consistent** if the set of linear equations has at least one solution.
+This means that a system is inconsistent if there's a row: 0 0 0 | non-zero
 :::
 
 To get to the solution set of a linear system we perform elementry operations which are operations on the linear system which don't change the solution set. Such operations are:
@@ -145,3 +146,6 @@ Then we identify that the second colum also is a pivot colum, so to create a piv
 Now our augmented matrix is in echelon form and we notice that the system is inconsistent as it states that 0 = 5. So it has no solutions (that also could've been noticed upon first sight here but sometimes you find out later).
 
 ## Homogeneity
+A system of linear equations is homogeneous if all of the constant terms are zero: A homogeneous system is equivalent to a matrix equation of the form
+A**x** = 0
+ where A is an m × n matrix, **x** is a column vector with n entries, and 0 is the zero vector with m entries.
