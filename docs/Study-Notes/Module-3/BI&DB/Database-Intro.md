@@ -1,21 +1,22 @@
-# Database introduction and design
+# Databases Introduction.
 
 ## File-based system and Database system
 
-In a system we store data to get information out of it, we define it as:
+In a system we store **data** in order to obtain **information** out of it.
+
 ::: tip Data vs Information
-Data:
++ **Data**:
+No contextual meaning (just numbers and text)
+Individual unit of information
+Raw facts of things
 
-- No contextual meaning (just number and text)
-- Individual unit of information
-- Raw facts of things
++ **Information**
+Data with exact meaning
+Processed data and organized text
+Is knowledge about a particular subject
+:::
 
-Information
-
-- Data with exact meaning
-- Processed data and organized text
-- Is knowledge about a particular subject
-  :::
+<img src="./pyramid.png" />
 
 Data can be stored in a file, a file is an object on a computer that stores data or a resource on the computer for recording data.
 
@@ -23,7 +24,8 @@ We can store data and display information in two main ways:
 
 - File-Based System
 - Database System
-  <img src= "./file-based_vs_database.png"/>
+
+<img src= "./file-based_vs_database.png" />
 
 ### File-Based System
 
@@ -101,7 +103,7 @@ A database environment contains two types of data:
 - management system (DBMS): MySQL, Oracle etc.
 - Operations system
 - Application programs: computer program that a user can interact with the database (java, c++ C# etc.)
-  :::
+:::
 
 ## DataBase Management System (DBMS)
 
@@ -113,7 +115,7 @@ A DBMS is divided into multiple Database Management System Facilities.
 - Data manipulation language (DML).
 - Data control language (DCL).
 
-<img src= ./dmsf.png/>
+<img src="./dmsf.png" />
 
 DBMS has multiple advantages like:
 
@@ -302,6 +304,6 @@ The process of converting between these two models is called diagram mapping.
 1. Create table for each entity.
 2. Entity's attributes should become fields of tables with their respective data types.
 3. Declare primary key
-   :::
+:::
 
-<img src= ./mapping.png/>
+<img src="./mapping.png" />
