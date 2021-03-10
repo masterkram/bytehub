@@ -23,6 +23,7 @@
 + Data Warehousing
 + Business Analytics
 + Data Mining
++ User Interfaces
 
 ### Business Process Managment
 + Performance Managment
@@ -41,7 +42,7 @@
 
 | Assessment | Weight | Min | Deadline |
 | ---------- | ------ | --- | -------- |
-| DB & BI Test | 1    | 5.5 |  Ongoing |
+| Project DB & BI | 1 | 5.5 |  Ongoing |
 | Project BPM | 1     | 5.5 | Week 5   |
 | LA Test | 1 | 5.5 | Week 7 |
 | BI & BD Test | 1 | 5.5 | Week 6 |
