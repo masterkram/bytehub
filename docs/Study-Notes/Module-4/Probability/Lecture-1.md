@@ -2,11 +2,11 @@
 
 ## Experiment and sample space
 ::: theorem Sample Space
-The set of all possible outcomes.
+The set $S$ of all possible outcomes of an experiment.
 :::
 
 ::: theorem Event
-The subset of the sample space.
+An event $A$ is a subset of the sample space $S: A \subset S$.
 :::
 
 ::: theorem Mutually Exclusive
@@ -41,8 +41,8 @@ The sequence of events $\{A_i\}$ is a partition of the event B if the events Ai 
 :::
 
 ## Symmetric Probability Spaces
-::: theorem Probability of event A
-$0 \leq P(A) \leq 1$
+::: theorem Probability P of event A
+$0 \leq P(A) \leq 1,  \forall A: A \subset S$
 $$P(A) = \frac{\text{times A occurred}}{\text{possible outcomes}}$$
 :::
 
@@ -50,15 +50,21 @@ $$P(A) = \frac{\text{times A occurred}}{\text{possible outcomes}}$$
 If S is a finite sample space of an experiment and the probabilities P(A) of events A are defined according to Laplace's definition (outcomes are equally likely) the pair (S, P) is called a symmetric probability space.
 :::
 
-The definition of laplace applies when during
+The definition of Laplace applies when during
 an experiment an element is chosen arbitrarily or at random from a finite sample space.
 
 ::: tip Properties of a symmetric probability space
-+ $P(A) \gte 0, \forall A$
++ $P(A) \geq 0, \forall A$
 + $P(S) = 1$
 + $A \subset B, then, P(A) \leq P(B)$
 + $P(\overline{A}) = 1 - P(A)$
 + If $A_1, A_2, ... A_n$ are mutually exclusive then $P(\bigcap^n_{i=1}A_i) = \sum_{n=1}^{n}P(A_i)$
+:::
+
+## Probabilistic experiments
+
+::: theorem Definition
+An experiment is probabilistic or stochastic if you cannot know the outcome of the experiment ahead of time. E.g.: A diceroll or a toss of a coin.
 :::
 
 ## Relative frequency and the empirical law of large numbers
@@ -77,7 +83,7 @@ As the relative frequency (or frequency quotient) of A in n repetitions.
 ::: theorem Definition
 Consider an experiment with a random non-empty sample space S. A function P which assigns a real number P(A) to every event $A \subset S$,
 is called a probability or probability measure on S if:
-1. $P(A) \gte 0$ for every event A
+1. $P(A) \geq 0$ for every event A
 2. $P(S) = 1$
 3. For every countable sequence of mutually exclusive events $A_1, A_2,...,A_n \, P(\bigcap_i A_i) = \sum_i P(A_i)$
 :::
