@@ -7,7 +7,7 @@ interacts via a network with the *server* which can serve *webpages* and other r
 
 The client and server rely on *HTTP* (**H**yper**t**ext **T**ransfer **P**rotocol) to send requests and responses.
 
-A *HTTP* request has a request type, such as:
+A *HTTP* request has a method, such as:
 + `GET`
 + `POST`
 + `PUT`
@@ -256,30 +256,9 @@ Server -[#3CB371]-> Client: 200 OK
     + considered as 'lightweight'
 
 ### REST
-::: theorem REST
-(**RE**presentational **S**tate **T**ransfer) is an architectural style of invoking services over the internet.
-:::
+This is an important topic so it has
+it's dedicated [page](./REST) :sparkles:
 
-::: tip Architectural Style
-Set of design rules that identify the kinds
-of components and connectors that may be used to compose a system.
-:::
-
-Defined in the PhD thesis of Roy Fielding.
-
-#### Rest Principles
-1. Stateless client-server architecture.
-    + request messages are self-contained(self-descriptive)
-    + All necessary information for invoking a service is in the request message.
-    + The server does not need to store information on the client in a session, since all information needed to perform the request is in the communication.
-2. Resources Identified with URIs
-    + A resource, can be a set of entities, a document an image etc.
-    + In REST a resource can be identified by a URI.
-    + Example: `/users` would be the resource, set of all user entities.
-3. State Representation
-    + The client and server have a mutual understanding of the meaning of data since there is no formal way to describe web service interfaces.
-4. Small set of actions
-    + Create-Read-Update-Delete actions
 
 ## Overview
 
