@@ -269,18 +269,16 @@ function myFunction() {
             console.log("Call returned");
             var response = this.responseText;
             document.getElementById("raw").innerHTML = response;
-
             var myObj = JSON.parse(response);
             document.getElementById("id").innerHTML = myObj.id;
-            document.getElementById("contents").innerHTML = myOBj.contents;
-            document.getElementById("created").innerHTML = myObj.created;
-            document.getElementById("author").innerHTML = myObj.author;
-        } else {
-            console.log(this.status);
-            console.log(this.statusText);
+            document.getElementById("title").innerHTML = myObj.title;
+            document.getElementById("body").innerHTML = myObj.body;
+            document.getElementById("userId").innerHTML = myObj.userId;
         }
     }
-    xmlHttp.open("GET", "https://pastebin.com/raw/AHmG2k69", true)
+
+    xmlHttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+    xmlHttp.send();
 }
 ```
 
