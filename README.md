@@ -29,4 +29,4 @@ The following plugins that extend vuepress's markdown are installed:
 + Open pull request branches are also deployed for staging.
 
 ## Contact
-+ [discord](https://discord.gg/y5z22SgP)
++ [discord](https://discord.gg/AUgprKcJWK)
