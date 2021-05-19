@@ -82,14 +82,6 @@ And this is the table:
 | 467 | Sarah White | Matenweg 164     | SS     | 5     |
 | 467 | Sarah White | Matenweg 165     | BIIT   | 7     |
 
-## Keys
-
-A key uniquely identifies a tuple(row) in a table.
-
-Sometimes one attribute or a small set of attributes forms a (natural) key.
-
-Sometimes an extra key is needed to guarantee
-uniqueness.
 
 ## Relational Algebra vs SQL
 
