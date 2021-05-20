@@ -43,7 +43,7 @@ In other words the values of **Y** follow from the values of **X**
 2. $\text{If } X -> Y \text{ then } XZ -> YZ$ (augmentation)
 3. $\text{If } X -> Y \text{ and } Y -> Z \text{ then } X -> Z$ (transitivity)
 4. $\text{If } X -> Y \text{ and } YW -> Z \text{ then } XW -> Z$
-5. $\text{If } X -> Y \text{ and } Y -> Z \text{ then } X -> Z$
+5. $\text{If } X -> Y \text{ and } X -> Z \text{ then } X -> YZ$
 6. $\text{If } X -> YZ \text{ then } X -> Y \text{ and } X -> Z$
 :::
 
