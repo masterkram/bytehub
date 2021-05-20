@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /campaign_launch.png
-heroText: BIT Notes
-tagline: Summaries for every lecture
-actionText: Go to Notes →
+heroImage: /webdev.png
+heroText: Lecture Summaries For BIT & TCS
+tagline: We exist because we love helping l̶a̶z̶y̶ students!
+actionText: Go to Summaries →
 actionLink: /study-notes/
 features:
 - title: Simplicity First 
