@@ -1,7 +1,7 @@
 {
   "name": "bytehub",
   "version": "0.0.1",
-  "description": "Summaries and tips by students for the utwente BIT program",
+  "description": "WebApp with Lecture summaries and tips For BIT & TCS programmes. made by a community of university of Twente students",
   "main": "index.js",
   "authors": {
     "name": "Mark Bruderer",
