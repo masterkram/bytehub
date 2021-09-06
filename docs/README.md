@@ -2,7 +2,7 @@
 home: true
 heroImage: /webdev.png
 heroText: Lecture Summaries For BIT & TCS
-tagline: We exist because we love helping l̶a̶z̶y̶ students!
+tagline: We exist because we love helping la̶z̶y̶ students!
 actionText: Go to Summaries →
 actionLink: /study-notes/
 features:
