@@ -1,5 +1,4 @@
-# 1 Introduction to Corporate Finance
-## 1-1 Corporate Investments and Financing Decisions
+# 1-1 Corporate Investments and Financing Decisions
 A company needs a big variety of **real assets**. These do not generate money out of nowhere, they need initial money to start making money. Corporations pay for these real assets with 
 1. cash flow that they generate
 2. selling claims on them (**financial assets** or **securities**)
@@ -12,7 +11,7 @@ These loans are financial assets, because the bank does **not** trade them on th
 * **investment decision** = purchase of real assets
 * **financing decision** = sale of securities and other financial assets
 
-### 📈 Investment Decisions
+## 📈 Investment Decisions
 Most large corporations prepare an annual **capital budget** listing the major projects approved for investment -> **capital budgeting or capital expenditure (CAPEX)**
 There are two types of investments.
 1. Tangible assets = assets that you can touch & kick, such as a new oil field or a new factory to produce your product.
@@ -24,7 +23,7 @@ Keep in mind that investments are not always as big as spending billions on adve
 
 Financial managers do not make big investments on their own. They work together as part of a team with lots of business functions.
 
-### 💰 Financing Decisions
+## 💰 Financing Decisions
 For a company to finance something they can raise money from
 1. Lenders -> the corporation borrows money from the lenders and the corporation promises to pay back the debt + a fixed rate of interest.
 2. Shareholders -> when shareholders provide the corporation with money they do get a fixed return, they hold shares of stock and therefore get a piece of the future profits.
@@ -50,9 +49,22 @@ Corporation does not reinvest all of the cash flow that is generated ->
 
 Financial managers need to identify the risks and make sure they are handled correctly. He/she has to outweight the advantages and disadvantages and find the perfect balance. Debt has its advantages, but too much debt can cause the company to go bankrupt. The future of companies and the finance plans can also be altered by changes in interest rates, exchange rates, political developments.
 
+## 🏢 What is a corporation?
+**corporation** = a legal entity (person) that is owned by shareholders, it can make contracts, operate a business, borrow and/or lend money, sue and be sued, pay taxes. A corporation's directors are elected by the shareholders. 
 
-### 🏢 What is a corporation?
-* **corporation** = a legal entity (person) that is owned by shareholders, it can make contracts, operate a business, borrow and/or lend money, sue and be sued, pay taxes. A corporation's directors are elected by the shareholders. 
+A corporation is owned by shareholders, but the corporation is legally distinct from the shareholders. This means that the shareholders can not be held responsible for the corporation's debt. **Limited liability** = shareholders can not be held personally resposible for the corporation's debts. So shareholders can lose their entire investment in a corporation, but nothing more.
 
-A corporation is owned by shareholders, but the corporation is legally distinct from the shareholders. This means that the shareholders can not be held responsible for the corporation's debt. 
+**closely held** = shares of a corporation are privately held by a small group of investors + the shares are not publicly traded
 
+**public companies** = shares of a corporation are publicly traded on for example the New York Stock Exchange.
+
+A large public corporation can have a big amount of shareholders, these shareholders can not control the corporation. There is a *separation of ownership and control* so therefore stockholders can sell all their shares to other investers without disturbing the management/control of the business.
+
+Because corporations are a seperate legal entity in the United States, it is taxed seperately. So corporations pay taxes on their 1. profits and shareholders pay taxes on their 2. dividends or 3. sell their shares at a profit. Income by businesses is taxed only once as personal income.
+
+Large and medium-sized businesses are almost always corporations.
+
+### 👨‍💼 The Role of the Financial Manager
+Role of Financial Manager = trace how money flows from investors to corporation and back to the investors again
+
+![Financial Manager](./images/fmanager.png)
