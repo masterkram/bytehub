@@ -1,4 +1,5 @@
 # 1-1 Corporate Investments and Financing Decisions
+
 A company needs a big variety of **real assets**. These do not generate money out of nowhere, they need initial money to start making money. Corporations pay for these real assets with 
 1. cash flow that they generate
 2. selling claims on them (**financial assets** or **securities**)
@@ -67,4 +68,4 @@ Large and medium-sized businesses are almost always corporations.
 ### 👨‍💼 The Role of the Financial Manager
 Role of Financial Manager = trace how money flows from investors to corporation and back to the investors again
 
-![Financial Manager](./images/fmanager.png)
+![Financial Manager](../img/fmanager.png)
