@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "@bytehub/client",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,10 +12,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
+    "@tailwindcss/forms": "^0.3.3",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "tailwindcss": "^2.2.9"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
