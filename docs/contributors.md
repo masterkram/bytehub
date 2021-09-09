@@ -25,7 +25,8 @@ export default {
           items: [],
           quotes: {
             "masterkram": "Gallivanting around.", "Daniel-Lizarazo-Fuentes": "I ambush the enemy from the front",
-            "Windemuller": "Tis but a scratch"
+            "Windemuller": "Tis but a scratch",
+            "Luducrous": "Never been afraid to die but I always been afraid to die before I get where I'm going"
             },
       }
   },
