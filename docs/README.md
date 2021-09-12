@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /webdev.png
-heroText: Lecture Summaries For BIT & TCS
+heroText: Lecture Summaries For BIT
 tagline: We exist because we love helping la̶z̶y̶ students!
 actionText: Go to Summaries →
 actionLink: /study-notes/
