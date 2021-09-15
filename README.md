@@ -17,6 +17,8 @@ yarn run dev
 ```
 ### Using Vuepress
 
+Do NOT use whitespaces in the Markdown files, neither in the foldernames.
+
 Please read more about Vuepress's markdown syntax [here](https://vuepress.vuejs.org/guide/markdown.html#markdown-extensions).
 
 The following plugins that extend vuepress's markdown are installed:
