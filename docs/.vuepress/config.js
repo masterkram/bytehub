@@ -3,6 +3,7 @@ const {nav, sidebar} = require("vuepress-bar")(`${__dirname}/..`, {maxLevel: 10}
 
 sidebar.pop(); // remove contributing from auto sidebar.
 sidebar.pop();
+sidebar[0].children.shift();
 
 module.exports = {
   /**
