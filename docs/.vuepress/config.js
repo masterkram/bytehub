@@ -87,5 +87,21 @@ module.exports = {
     '@vuepress/nprogress',
     'vuepress-plugin-mathjax',
     'vuepress-plugin-mermaidjs',
+    [
+      'vuepress-plugin-chart'
+    ],
+    [
+      'vuepress-plugin-roughviz'
+    ],
+    [
+      '@renovamen/vuepress-plugin-md-plus', {
+        'all': false,  // enable all features or not, this will rewrite all the following options
+        'footnote': true,  // enable footnote or not
+        'mark': true  //enable mark or not
+      }
+    ],
+    [
+      'vuepress-plugin-markmap'
+    ],
   ]
 }
