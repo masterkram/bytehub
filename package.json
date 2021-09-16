@@ -22,11 +22,16 @@
     "vuepress-plugin-mermaidjs": "^1.7.2"
   },
   "dependencies": {
+    "@renovamen/vuepress-plugin-md-plus": "^0.2.0",
     "axios": "^0.20.0",
+    "json-fn": "^1.1.1",
     "markdown-it-plantuml": "^1.4.1",
     "vuepress-bar": "github:masterkram/vuepress-bar",
     "vuepress-plugin-auto-sidebar": "^1.5.0",
-    "vuepress-plugin-mathjax": "^1.2.8"
+    "vuepress-plugin-chart": "^0.3.0",
+    "vuepress-plugin-markmap": "^0.2.0",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-roughviz": "^0.2.0"
   },
   "author": "masterkram <markbruderer123@gmail.com>"
 }
