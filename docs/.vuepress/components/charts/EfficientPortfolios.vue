@@ -10,39 +10,38 @@ import gaussian from "gaussian";
 
 Chart.defaults.maintainAspectRatio = false;
 export default {
-  name: "NormalDist",
+  name: "EfficientPortfolios",
   props: {
     id: {
       type: String,
       required: true,
-    }
+    },
   },
   methods: {
     data() {
-      const a = this.getNormal(1, 2.25);
-      const b = this.getNormal(1, 0.75*0.75);
-      const c = this.getNormal(2, 0.75*0.75);
+      const a = this.getNormal();
 
       const data = {
         labels: this.getLabels(),
         datasets: [
           {
-            label: "Investment A (mean=10;std=1.5)",
+            label: "Efficeient Portfolios",
             data: a,
+            pointRadius: 0,
             borderColor: "rgba(255, 99, 132, 1)",
             backgroundColor: "rgba(255, 99, 132, 0.5)",
           },
           {
-            label: "Investment B (mean=10;std=0.75)",
-            data: b,
-            borderColor: "rgba(54, 162, 235, 1)",
-            backgroundColor: "rgba(54, 162, 235, 0.5)",
-          },
-          {
-            label: "Investment C (mean=20;std=0.75)",
-            data: c,
-            borderColor: "rgba(75, 192, 192, 1)",
-            backgroundColor: "rgba(75, 192, 192, 0.5)",
+            label: "tangent line",
+            data: [
+              {x: 0, y: 5},
+              {x: 10, y: 13},
+              {x: 30, y: 30*0.8 + 5}
+            ],
+            pointRadius: 0,
+            borderColor: "rgba(0, 0, 0, 1)",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            borderWidth: 1,
           },
         ],
       };
@@ -51,20 +50,21 @@ export default {
     getLabels() {
       let labels = [];
 
-      for (let i = -7; i <= 7; i++) {
-        labels.push(i * 10);
+      for (let i = 0; i <= 50; i += 10) {
+        labels.push(i);
       }
       return labels;
     },
-    getNormal(mean, vari) {
-      let distribution = gaussian(mean, vari);
+    getNormal() {
       const values = [];
-      for (let i = -7; i <= 7; i+=1) {
-        values.push(distribution.pdf(i));
-      }
+      values.push({ x: 9.2, y: null });
+      values.push({ x: 9.3, y: 10.7 });
+      values.push({ x: 10, y: 13 });
+      values.push({ x: 12.1, y: 14.0 });
+      values.push({ x: 45, y: 18.1 });
 
       return values;
-    }
+    },
   },
   mounted() {
     const data = this.data();
@@ -73,6 +73,9 @@ export default {
       data: data,
       options: {
         responsive: true,
+        pointStyle: {
+          pointRadius: 0,
+        },
         plugins: {
           legend: {
             position: "top",
@@ -85,19 +88,24 @@ export default {
         scales: {
           y: {
             beginAtZero: true,
-            max: 1,
             title: {
               display: true,
-              text: "Probability"
-            }
+              text: "Expected return %",
+            },
           },
           x: {
+            type: "linear",
+            display: true,
             title: {
               display: true,
-              text: "Revenue %"
-            }
-          }
-        }
+              text: "Standard deviation %",
+            },
+            scaleLabel: {
+              display: true, // mandatory
+              labelString: "Your label", // optional
+            },
+          },
+        },
       },
     };
     const ctx = this.$refs.chartjs.getContext("2d");
