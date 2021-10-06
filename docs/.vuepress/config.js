@@ -6,6 +6,7 @@ sidebar.pop();
 sidebar[0].children.shift();
 
 module.exports = {
+  theme: 'vuepress-theme-default-vue-a11y',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -36,7 +37,15 @@ module.exports = {
     sidebar,
     sidebarDepth: 0,
     smoothScroll: true,
-    lastUpdated: 'Last Updated'
+    lastUpdated: 'Last Updated',
+    colorMode: {
+      enabled: true,
+      visible: true,
+      props: {
+        // e.g. color modes
+        modes: [ 'light', 'dark']
+      }
+    }
   },
 
   markdown: {
