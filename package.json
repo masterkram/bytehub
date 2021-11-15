@@ -10,7 +10,8 @@
   "repository": "https://github.com/masterkram/bytehub",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "start": "nodemon --ext md,vue,js --watch .vuepress --watch . --exec vuepress dev docs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -29,12 +30,16 @@
     "gaussian": "^1.2.0",
     "json-fn": "^1.1.1",
     "markdown-it-plantuml": "^1.4.1",
+    "nodemon": "^2.0.15",
     "vuepress-bar": "github:masterkram/vuepress-bar",
     "vuepress-plugin-auto-sidebar": "^1.5.0",
     "vuepress-plugin-chart": "^0.3.0",
     "vuepress-plugin-markmap": "^0.2.0",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-roughviz": "^0.2.0"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
   },
   "author": "masterkram <markbruderer123@gmail.com>"
 }
