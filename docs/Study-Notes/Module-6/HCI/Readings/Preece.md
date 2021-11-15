@@ -53,12 +53,8 @@ Interaction design is an **iterative process**, involving:
 ### Steps of interaction design:
 
 ```mermaid
-graph LR;
-A[Thinking about the problem space];
-B[information gathering about users’ needs and problems];
-C[explicating the requirements through models];
-D[Fleshing out models using variety of user-centered methods]
-A --> B --> C --> D;
+graph TD;
+A[Thinking about the problem space] --> B[information gathering about users needs and problems] --> C[explicatingthe requirements through models] --> D[Fleshing out models using variety of user-centered methods];
 ```
 
 ## Issues in testing prototypes:
