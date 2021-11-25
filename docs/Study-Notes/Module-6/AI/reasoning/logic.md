@@ -85,9 +85,10 @@ Then inference or reasoning is done on the knowledge base to determine the agent
 Theorem proving: applying rules to derive a proof of $KB \models \alpha$ without model checking.
 Notation $KB \vdash \alpha$.
 
-Example: Modus Ponens:
+::: tip Example: Modus Ponens:
 
 $$\frac{\alpha \implies \beta, \alpha}{\beta}$$.
+:::
 
 The main challenge is to find which rule needs to be applied to which formulas in order to arrive at the desired conclusion.
 
@@ -98,20 +99,20 @@ reminder: disjunction == or.
 
 Simple Resolution Rule:
 
-$$frac{p \vee q, \neg q}{p}$$
+$$\frac{p \vee q, \neg q}{p}$$
 
 Example:
-$$frac{tea \vee coffee, \neg coffee}{tea}$$
+$$\frac{tea \vee coffee, \neg coffee}{tea}$$
 
 Simple Resolution Rule With Disjunction.
 
-$$frac{p \vee q, \neg q \vee r}{p \vee r}$$
+$$\frac{p \vee q, \neg q \vee r}{p \vee r}$$
 
 Example:
-$$frac{tea \vee coffee, \neg  \vee coffee \vee \neg biscuits}{tea \vee \neg biscuits}$$
+$$\frac{tea \vee coffee, \neg  \vee coffee \vee \neg biscuits}{tea \vee \neg biscuits}$$
 
 ::: theorem Resolution Rule
-$$\frac{i_1 \vee \dots \vee \i_k, m_i \vee \dots \vee m_k}{i_1 \vee \dots \i_{k-1} \dots \vee \i_k \vee m_1 \vee \dots \vee \dots \vee m_{j-1} \vee m_{j+1} \dots \vee m_n}$$
+$$\frac{i_1 \vee \dots \vee i_k, m_i \vee \dots \vee m_k}{i_1 \vee \dots i_{k-1} \dots \vee i_k \vee m_1 \vee \dots \vee \dots \vee m_{j-1} \vee m_{j+1} \dots \vee m_n}$$
 
 Where ik and mj are complementary literals:
 1. $i_k = \neg m_j$
