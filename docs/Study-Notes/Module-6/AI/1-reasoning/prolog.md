@@ -20,6 +20,62 @@ This is equivalent to a conjunction of atoms as the antecedent and a single atom
 :::
 
 
+## Forward Chaining
+
+Apply modus ponens to see what can be derived from a set of rules and atomic propositions.
+
+:::tip Example
+
+**Knowledge Base**:
+$b \wedge c \implies a$
+$d \implies b$
+$d$
+$c$
+
+**Forward Chaining**:
+$b$ (d, is true and d implies b.)
+$a$ (b and c are true which implies a.)
+:::
+
+
+## Backward Chaining
+Starting from the goal and reason backwards.
+Used In Prolog !
+
+:::tip Example
+**Knowledge Base**:
+$a \impliedby b \wedge c$
+$b \impliedby d$
+$d$
+$c$
+
+**Backward Chaining**
+1. a. (a is the goal, what we want to prove)
+2. a is true if b and c are true.
+3. d implies b
+4. d is true and c is true.
+5. done.
+:::
+
+Backwards Chaining is based on the resolution rule:
+
+:::tip Example
+**Knowledge Base**
+$a \vee \neg b \vee \neg c$
+$b \vee \neg d$
+$d$
+$c$
+
+**Resolution**
+$\neg a$ add the negation of the goal we want to prove to the knowledge base.
+$\neg b \vee \neg c$ a and negation of a cancel out.
+$\neg d \vee \neg c$ b and negation of b cancel out.
+$\neg c$ d and negation of d cancel out
+empty clause, c and negation of c cancel out.
+:::
+
+
+## Prolog Syntax
 Two types of statements:
 + Facts: horn clauses consisting of a single positive literal
     + ex: p, q

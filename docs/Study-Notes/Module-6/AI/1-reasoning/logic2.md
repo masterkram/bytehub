@@ -80,7 +80,7 @@ Theorem proving: applying rules to derive a proof $KB \models \alpha$ without mo
 3. Resolution
 
 #### Transforming to CNF
-1. Replace all $A \iff \B$ with conjunction $(A \implies B) \wedge (B \implies A)$
+1. Replace all $A \iff B$ with conjunction $(A \implies B) \wedge (B \implies A)$
 2. Replace $A \implies B$ with $\neg A \vee B$
 3. Move negation signs inwards starting from the outside until every negation sign is directly in front of a literal.
 4. Remove quantifiers.

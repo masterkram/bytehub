@@ -1,15 +1,15 @@
 # Search
 
 ## Path Finding :round_pushpin:
-+ Search space: set of all reachable states from the initial state.
-+ Search tree or graph: possible action sequences from the initial state.
-+ Search strategy: the process of how nodes are traversed.
++ `Search space`: set of all reachable states from the initial state.
++ `Search tree or graph`: possible action sequences from the initial state.
++ `Search strategy`: the process of how nodes are traversed.
 
 Evaluation measures:
-+ time complexity
-+ space complexity
-+ completeness: does it find a solution if there is one.
-+ optimality: does it find the optimal solution.
++ `time complexity`
++ `space complexity`
++ `completeness`: does it find a solution if there is one.
++ `optimality`: does it find the optimal solution.
 
 
 ## Search Strategies :evergreen_tree:
@@ -17,7 +17,7 @@ Evaluation measures:
 ### Breadth first search
 
 + Layer by layer
-+ Fist In First Out (Queue)
++ Data Structure: Fist In First Out (Queue)
 
 ```mermaid
 graph TD;
@@ -57,8 +57,8 @@ public static void bfs(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int
 
 ### Depth first search
 
-+ 
-
++ Deepest node is expanded.
++ Data Structure: Last in First Out (Stack)
 
 ```mermaid
 graph TD;
@@ -109,6 +109,22 @@ public static void dfs(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int
 when the `action space` is tree-shaped, no loops occur so we can use tree search. However
 if the graph is not a tree (loops in some way) we need to check if nodes were already visited
 by means of a `closed list` or `explored set`.
+
+### Uninformed (blind) Search Strategies
+
+class of search strategies that have no information about states beyond the one provided in the problem definition, (starting point and goal).
+can only generate successors and distinguish a goal state from a non-goal state.
+
+Examples that belong to this class:
++ BFS
++ DFS 
++ Depth limited search
++ Iterative deepening search
++ Uniform cost search
+
+## A* Search
+
+Searches for an optimal path in a 
 
 ## Sources:
 + [alemoraru's algorithms pages :raised_hands:](https://alemoraru.github.io/algorithms)

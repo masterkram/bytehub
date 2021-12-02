@@ -133,3 +133,11 @@ Steps:
 1. add $\neg \alpha$ to KB and try to prove $KB \wedge \neg \alpha \vdash \bot$ (proof by contradiction)
 2. Write $KB \wedge \neg \alpha$ in CNF
 3. Apply resolution rule until no new clause can be added anymore or false is derived.
+
+## Soundness & Completeness
+
++ Logical consequence
+    + $KB \models \alpha$ : semantic entailment, defined through models
+    + $KB \vDash \alpha$ : a proof exists showing that by applying syntactic rules, $\alpha$ follows from KB.
++ It is **sound** if it is proven by resolution that $\alpha$ follows from KB then $KB \models \alpha$
++ It is **complete** if $KB \models \alpha$ then it can be proven by resolution that $\alpha$ follows from KB.
