@@ -124,7 +124,42 @@ Examples that belong to this class:
 
 ## A* Search
 
-Searches for an optimal path in a 
+Searches for an optimal path in a 'efficient' manner.
+
+### Informed Search Strategies
+
+Uses knowledge beyond the problem spec, to select the nodes that are the most promising.
+`heuristic` = selection function (for nodes).
+
+more efficient than uninformed search strategies.
+
+Examples that belong to this class:
++ Greedy best-first search
++ A* Search
++ Recursive best-first search
++ Simplified memory bounded A*
+
+Best first search approach:
++ Instance of tree/graph algorithms
++ The nodes are selected based on an `evaluation function` $f(n)$
++ The node with the lowest cost is expanded first.
++ Most *best-first search* algorithms use a `heuristic function` $h(n)$
+    + h(n): **estimated** cost of the cheapest path from the state at node n to a goal state.
+    + heuristic function can be based on the context / knowledge of the problem domain.
+
+:::theorem A* Search
+Evaluates the node by combining the cost to reach the node n from the start state, denoted g(n), and the estimated cost to get from the node n to the goal denoted h(n),
++ `f(n) = g(n) + h(n)`
++ f(n): estimated cost of the cheapest solution through n
++ choose the next node that has the smallest f(n)
+
+```mermaid
+graph LR;
+A(Start Node) -->|"g(n)"| B(n) -.->|"h(n)"|G(Goal Node);
+A -->|"f(n)"| G
+```
+:::
+
 
 ## Sources:
 + [alemoraru's algorithms pages :raised_hands:](https://alemoraru.github.io/algorithms)
