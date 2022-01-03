@@ -53,7 +53,7 @@ Examples:
 
 
 ## Semi-supervised Training
-partially labelled data sets, first training based on labelled subset, extend by making predictions for unlabeled data, accept examples with high confidence for next training ...  iterative procedure
+Partially labelled data sets, first training based on labelled subset, extend by making predictions for unlabeled data, accept examples with high confidence for next training ...  iterative procedure
 
 ## Unsupervised Training
 

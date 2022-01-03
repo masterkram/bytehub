@@ -2,8 +2,8 @@
 
 Decision trees have a major drawback:
 - They can grow too deep
-- They overfit
-How do we deal with a model that overfits?
+- They overfit  
+- How do we deal with a model that overfits?
 - Remove splits that are not _statistically significant_
 
 |     A | B | Class | 
