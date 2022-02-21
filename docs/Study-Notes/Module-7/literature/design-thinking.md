@@ -78,4 +78,18 @@ wolpertinger ideas
 
 ### Theoretical Underpinning
 
-**Group Thinking**
+**Group Think Bias** is proven in studies.
+
++ conventions: easy
++ secrets: hard
++ mysteries: impossible
+
+> What important truth do very few people agree with you on ?
+
+**Adjacent Possible**
+
+> The biospheres on average keep expanding into the adjacent possible. By doing so they increase the diversity of what can happen next.
+
+> The adjacent possible is a kind of shadow future hovering on the edges of the present state of things a map of all the ways in which the present can reinvent itself.
+
+> Each new combination opens the possibility of other new combinations.

@@ -33,4 +33,4 @@ C --> D[4. Company Building];
 
 In contrast to traditional product development in which each stage occurs in linear order and lasts for months, agile development builds products in short, repeated cycles. A start up produces a `minimal viable product` containing only critical features. gathers feedback on it from customers and then starts over with a revised minimum viable product.
 
-[See module 4 requirements](docs/Study-Notes/Module-4/Requirements/Lecture-1.md)
+[scrum lecture module 4](../Module-4/Requirements/Lecture-1.md)
