@@ -8,4 +8,4 @@ The algorithm goes as follows:
 5. If all data point have differenct classes, recurse.  
 
 
-![iterativeDichotomiser](../../img/iterativeDichotomiser.png)
+![iterativeDichotomiser](../../img/IterativeDichotomiser.png)
