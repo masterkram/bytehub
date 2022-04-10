@@ -1,6 +1,6 @@
 # PSS
 
-![bmc](./Business-Model-Canvas.png)
+![bmc](../img/Business-Model-Canvas.png)
 
-![pss](./pss-bmc.png)
+![pss](../img/pss-bmc.png)
 
