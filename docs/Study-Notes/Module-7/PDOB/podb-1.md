@@ -64,8 +64,8 @@ have been customized for them
 :::
 
 
-![decouple](./decoupler.png)
+![decouple](../img/decoupler.png)
 
-![dpc](./dpc.png)
+![dpc](../img/dpc.png)
 
-![types of mod](./typesofmod.png)
+![types of mod](../img/typesofmod.png)
