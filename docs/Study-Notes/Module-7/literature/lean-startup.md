@@ -12,7 +12,7 @@ Lean startup makes the process of starting a company less risky.
 
 The business model canvas lets you look at all nine
 building blocks of your business on one page. Each component of the business model contains a series of hypotheses that you need to test.
-![img](./Business-Model-Canvas.png)
+![img](../img/Business-Model-Canvas.png)
 
 
 ## Listening to Customers

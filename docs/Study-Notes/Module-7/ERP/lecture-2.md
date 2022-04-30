@@ -1,4 +1,6 @@
-# ERP research and practice
+# Lecture 2
+
+ERP research and practice
 
 :::theorem ERP
 is a suite of enterprise business applications including, at least one of the following: `manufacturing`, `supply chain`, or `customer relationship managment`

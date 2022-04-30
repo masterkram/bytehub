@@ -1,4 +1,4 @@
-# Lecture 1:
+# Lecture 1
 
 Business strategies to resource planning:
 + `Single custom built software`

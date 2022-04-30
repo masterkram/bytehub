@@ -1,85 +1,6 @@
 # Critical Success Factors
 
 SCM = Supply Chain Management.
-
-## ERP Benefits:
-
-### Operational Benefits
-
-#### Operational
-
-The operational benefits are those arising
-from automating cross functional processes
-
-#### IT infrastructure
-
-The IT infrastructure benefit consists of the
-typical IT department benefits arising from
-reduction in cost of maintaining legacy
-systems.
-
-### Tactical benefits
-
-#### Managerial
-
-The managerial category includes benefits
-that arise from the use of data to better plan
-and manage production, manpower,
-inventory and physical resources and from
-the monitoring and control of financial
-performance of products, customers,
-business lines and geographic area.
-
-#### Strategic benefits
-
-##### Strategic
-
-The strategic benefits category focuses on
-the benefits that arise from the system’s
-ability to support business growth
-
-##### Organizational
-
-The organizational benefits category
-captures the benefits derived from
-facilitation business learning, empowerment
-of staff and higher employee morale and
-satisfaction.
-
-## SCM Benefits:
-
-### Internal business process perspective
-The internal business process starts with the receipt
-of a customer order and finishes with delivery of the
-products or service to the customer which reflects
-how effectively material and labour resources are
-used to provide service, and includes improve
-efficiency of manufacturing process, improve
-inventory management, increase delivery efficiency,
-increase flexibility, increase information system
-support, and improve new product development.
-
-### External business process perspective
-  The increased outsourcing of manufacturing
-  companies results in more focus on the external
-  business process and many SCM solutions are
-  developed to support this, which reflects broader
-  business measures used to enhance customer
-  loyalty, based on the logic that superior service
-  attracts and keeps key customers.
-### Customer service perspective
-  Customer service identifies the types of value
-  provided to the customer. While there are a number
-  of specific measures of customer service, the
-  research focuses on customer satisfaction, product
-  flexibility, product leadership, deliver speed and
-  order tracking performance.
-### Cost management
-  Cost management focuses on the functional and
-  logistics and supply chain cost components and
-  indicates how well a firm uses fixed assets and
-  working capital.
-
 ## ERP Stakeholder Groups
 
 1. End user
@@ -143,7 +64,7 @@ support, and improve new product development.
 | 45.   | Integration of business planning with ERP planning            |
 | 46.   | Ease of system’s use and users’ acceptance                    |
 | 47.   | Effectiveness of management in reducing the users’ resistance |
-| 48.   | Organizational culture \ Cultural Change/political issues     |
+| 48.   | Organizational culture | Cultural Change political issues     |
 | 49.   | Data and information quality                                  |
 | 50.   | Focus on user requirements                                    |
-| 51.   | A formalised project approach and methodology                 |
+| 51.   | A formalized project approach and methodology                 |
