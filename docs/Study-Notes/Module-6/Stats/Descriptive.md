@@ -1,4 +1,4 @@
-# Descriptive Statistics
+# Chapter 1
 
 `descriptive statistics` = summarize observed data and present it graphically.
 
@@ -77,7 +77,58 @@ For samples with mean $\bar{x}$ and standard deviations s:
 
 the z-score of an observation x is $\frac{x-\bar{x}}{s}$
 
-+ Measure for deviation from the mean: "the number of standard deviations smaller or greater than the mean"
+**Interpretation**
+the distance between the value and the mean in standard deviations.
 
 For populations with mean $\mu$ and standard deviation $\sigma$
 The z-score of an observation or value x is $\frac{x-\mu}{\sigma}$
+
+**Empirical Rule Applied Backwards**
++ 68% of observations [-1, +1] z-score
++ 95% of observations [-2, +2] z-score
++ 99.7% of observations [-3, +3] s-score
+## Skewness
+
+**normal distribution skewness = 0**
+
+| Positive Kurtosis | Symetrical Distribution | Negative Skew |
+| 
+
+## Kurtosis
+
+**normal distribution kurtosis = 3**
+
+
++ Negative Kurtosis
++ Normal Distribution
++ Positive Kurtosis
+
+## Sample Estimators
+
+| Measure | Population Distribution | Sample Estimate |
+| ------- | ----------------------- | --------------- |
+| Mean    | $\mu = E(X)$            | $\bar{x}$ = \frac{1}{n}\sum xi |
+| Variance | $\sigma^2 = E(X - \mu)^2$ | $S^2 = \frac{1}{n-1} \sum(x_i - \bar{x})$ |
+| Standard Deviation | $\sigma$ | $S = \sqrt{S^2}$ |
+| Skewness | $y_1 = \frac{E(X-\mu)^3}{\simga^3}$ | $b_1 = \frac{1/2\sum(x_i - \bar{x})^3}{((1/2\sum(x_1 - \bar{x})^2)^{3/2})}$ |
+| Kurtosis | $y_2 = \frac{E(X-\mu)^4}{\sigma^4}$ |  $b_2 = \frac{1/2\sum(x_i - \bar{x})^4}{(1/2\sum(x_i - \bar{x})^2)^2}$ |
+
+
+## Normality Check
++ Graphs: on a histogram data looks approximately normal.
++ Numerically:
+  + Skewness coefficient: (close to 0)
+  + Kurtosis coefficient: (close to 3)
++ Q-Q plot: no systemic deviations from the x = y line.
+
+## Exponential Distribution Check
++ Graph: histogram:
+  + no negative values
+  + peak at 0
+  + skew right.
++ Numerically
+  + skew (close to 2)
+  + kurtosis (close to 6)
++ Q-Q plot: no systemic deviations from the x = y line.
+
+
