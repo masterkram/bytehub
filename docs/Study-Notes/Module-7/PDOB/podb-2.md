@@ -23,7 +23,7 @@
 
 ### Elements of an innovation
 
-![elements of innovaation](./venn.png)
+![elements of innovaation](../img/venn.png)
 
 :::theorem Lean Startup
 business approach that 
@@ -69,7 +69,7 @@ solutions to wicked
 problems
 :::
 
-![design](./designthink.png)
+![design](../img/designthink.png)
 
 ### Simplified Process Model
 
@@ -89,5 +89,5 @@ Thinking:
 + Divergent: Create Choices
 + Convergent: Make Choices
 
-![design](./gensel.png)
+![design](../img/gensel.png)
 

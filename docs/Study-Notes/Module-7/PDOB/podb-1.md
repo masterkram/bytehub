@@ -4,7 +4,7 @@
   + Intangible
   + Heterogeneous
   + Simultaneously produced and consumed.
-  + and perishable.
+  + perishable.
 
 :::theorem Servitization
 Servitization is a **business model inovation**
@@ -15,7 +15,7 @@ where a manufacturer of products **expands the scope of transactions** with cust
 servitization involves the innovation of an organization's capabilities and processes so that it can better create mutual value through a shift from selling products ot selling **Product-Service-Systems (PSS)**
 :::
 
-![economic value](./economic-value.png)
+![economic value](../img/economic-value.png)
 
 | Offering | Products | Services | Experiences |
 | -------- | -------- | -------- | ----------- |
@@ -64,8 +64,8 @@ have been customized for them
 :::
 
 
-![decouple](./decoupler.png)
+![decouple](../img/decoupler.png)
 
-![dpc](./dpc.png)
+![dpc](../img/dpc.png)
 
-![types of mod](./typesofmod.png)
+![types of mod](../img/typesofmod.png)
