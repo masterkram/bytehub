@@ -105,5 +105,8 @@ module.exports = {
     [
       'vuepress-plugin-markmap'
     ],
+    [
+      'vuepress-plugin-zooming',
+    ]
   ]
 }
