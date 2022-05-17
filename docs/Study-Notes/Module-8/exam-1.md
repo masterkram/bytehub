@@ -65,8 +65,114 @@
 
 ## Lecture 3
 
-*TODO*
+### Uncertainty
 
+Three levels of project uncertainty: **low, moderate and high.**
+
+#### Low Uncertainty
+*Network planning* and scheduling of a project with A* search that realize the most value.
+
+:::theorem Critical Path Method
+The critical path method (CPM) is a technique where you identify tasks that are necessary for project completion and determine scheduling flexibilities. A critical path in project management is the longest sequence of activities that must be finished on time in order for the entire project to be complete.
+:::
+
+:::theorem Critical Chain Method
+
+:::
+
+#### Moderate Uncertainty
+
+*Execution Monitoring*: assumes that projects may unfold in different ways.
+
++ The situations are known in advance.
++ **contingency plans are made**, and added to the activity network.
+
+#### High Uncertainty
++ execution monitoring too complex.
++ Only deliver the global plan of key activities (especially critical path). Leave noncritical path or some critical path activities over to ad hoc decisions
+
+#### High Uncertainty
+
++ Low Uncertainty
+  + Network planning
++ Moderate Uncertainty
+  + Execution monitoring
+  + 
++ High Uncertainty
+  + Execution monitoring with replanning is not possible.
+  + Only deliver the global plan of key activities (especially critical path). Leave noncritical path or some critical path activities to ad hoc decisions.
+
+### Information Inadequacy
+
+information adequacy problems:
++ Ambiguity
++ Project complexity
+
+Coping methods:
++ learning
+  + you find a difference from the plan.
+  + try a improved action and check results.
+  + incremental process
+  + time-consuming.
++ selectionism
+  + used if nothing else works
+  + trying out multiple approaches. (hail mary)
+  + survival of the fittest
+  + taking the first one that meets the target (and stop search)
+
+|  | Optimization | Selectionism |
+| -- | ---------- | ------------ |
+| Learning | Learning | Learning & Selectionism |
+| No learning | Instructionism (control) | Selectionism |
+
+| | Planning infrastructure | coordination & incentives infrastructure | Monitoring systems infrastructure |
+| -- | -------------------- | ------------------------------------- | -----|
+| Instructionism | Schedules, buffers, contingency plans, simulation | Target setting, work breakdown structure, target contracts | Progress tracking, risk realization |
+| Learning | Plan learning actions, provide capacity for learning | Long-term relations with stakeholders, mutual interest and incentives | Scan new events, track achivements, evaluate for learning |
+| Selectionism | Plan trial projects | winner shares with losers | sharing intermediate results of trial projects |
+
+
+:::tip Strategies
+- Instructionism - avoiding uncertainty by reducing rate of environmental change per generation OR/AND by living in uninhabited and stable niches. OR contingent policies - continuous time regulation, genetic triggers.
+- Learning - acquire new responses to the environment - discover new patters, respond to new events.
+- Selectionism - Variants are selected by a complex environment, or selected after catastrophic unforeseeable events.
+:::
+### System dynamics applied to project management:
+
+
+### Why do data-driven projects fail:
+1. Data-related challenges
+  1. data quality 
+  2. data access
+  3. data understanding
+  4. data preparation
+2. Process-realted challenges 
+  1. budget
+  2. time
+  3. cultural resistance 
+  4. unstructured project execution 
+3. People-related challenges
+  1. lack of soft skills
+  2. lack of hard skills 
+  3. lack of technical expertise - critical
+
+### Why open source projects fail:
+#### Failure Reasons:
+- Lack of time
+- Lack of interest
+- Project is completed
+- Usurped by competitor
+- Project is obsolete - not useful anymore
+- Project is based on outdated technologies
+- Low maintainability
+- Conflicts among developers
+
+#### Most relevant tactics to avoid failure:
+- Contributing guidelines
+- Continuous integration CI/CD
+- Licences
+- Home page
+- Issue templates
 ## Lecture 4
 
 - **Strategic analysis:** capturing & analyzing the goals of an organization → first step for defining strategies and plans to achieve these goals
