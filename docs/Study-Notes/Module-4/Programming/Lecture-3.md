@@ -50,10 +50,42 @@ public class Boat {
 
 ### Built in Annotations
 
-+ `@Deprecated`: Indicates that this element
-should not be used (because it will disappear in the future).
-+ `@SuppressWarnings`: Tells the compiler that warnings should not be shown.
-+ `@Override`: Indicates that a method overrides an existing implementation.
+#### `@Deprecated`: 
+Indicates that this element should not be used (because it will disappear in the future).
+
+```Java
+public class Worker {
+    /**
+     * Calculate period between versions
+     * @deprecated
+     * This method is no longer acceptable to compute time between versions.
+     * <p> Use {@link Utils#calculatePeriod(Machine)} instead.
+     *
+     * @param machine instance
+     * @return computed time
+     */
+    @Deprecated
+    public int calculate(Machine machine) {
+        return machine.exportVersions().size() * 10;
+    }
+}
+```
+
++ @Deprecated annotation has additional attributes: `since` and `forRemoval`
++ since: requires a string to define in which version the element has been deprecated. 
+    + Default value: an empty string
++ forRemoval: is a boolean that allows us to specify if the element will be removed in the next release. 
+    + Default value: false
+Example: `@Deprecated(since = "4.5", forRemoval = true)`
+
+#### `@SuppressWarnings`:
+Allows to tell the compiler which type of warnings to ignore The two most common warning types: depreciation and unchecked depreciation: 
++ ignore the warning if it comes from a method which has the depreciation annotation
++ unchecked: ignore warning if we have a method that uses raw types such as List animals instead of `List<Dogs>` animals. 
+
+(A List can only contain elements of the same type. With raw types the List would only consist of elements which are of Type Object)
+#### `@Override`:
+Indicates that a method overrides an existing implementation.
 
 ## JAX-RS and Jersey
 
