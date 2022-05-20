@@ -34,7 +34,7 @@
     "markdown-it-plantuml": "^1.4.1",
     "nodemon": "^2.0.15",
     "reload": "^3.2.0",
-    "vuepress-bar": "github:masterkram/vuepress-bar",
+    "vuepress-bar": "^0.4.4",
     "vuepress-plugin-auto-sidebar": "^1.5.0",
     "vuepress-plugin-chart": "^0.3.0",
     "vuepress-plugin-markmap": "^0.2.0",
