@@ -147,7 +147,13 @@ Critical components:
 
 `Pelletier, Maia, and Patrick Boily. 2019. “Dashboards and Data Visualization, with Examples.”`
 
-## 
+## European Digital Single Market
+
+Digital Single Market is a goal of the European Union.
+
+:::theorem European Digital Single Market
+A single market is a type of trade bloc in which most trade barriers have been removed (for goods) with some common policies on product regulation, and freedom of movement of the factors of production (capital and labour) and of enterprise and services.
+:::
 
 `De  Streele,  A.  (2019) Contribution  to  Growth:  European  Digital  Single Market. European Parliament.`
 
