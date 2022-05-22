@@ -83,9 +83,9 @@ Agile depends on continuous customer involvement
 + for establishing goals
 + to provide feedback to progressive prototypes
 
-Customers believe that daily meetings kept them up to date and helped to "reduce the confusion about what should be developed" [^1]
+Customers believe that daily meetings kept them up to date and helped to "reduce the confusion about what should be developed"
 
-Scrum Poker was found to have a positive impact, because it gives insight into the development process [^2]
+Scrum Poker was found to have a positive impact, because it gives insight into the development process
 
 :::theorem Extreme Programming (XP)
 Agile methodology for software development based on scenario-based requirements, testing happening as early as possible and pair programming.
@@ -505,7 +505,45 @@ For Policy techniques to be used by the EU, the study recommends:
     + GDPR offers legal tools to allow companies to transfer personal data to companies outside the EU.
 :::
 
-**References** 
+## Summary, EU Cybersecurity Act
 
-[^1]: [C. Mann and F. Maurer, "A case study on the impact of scrum on overtime and customer satisfaction," Agile Development Conference (ADC'05), 2005, pp. 70-79, doi: 10.1109/ADC.2005.1.](https://doi-org.ezproxy2.utwente.nl/10.1109/ADC.2005.1)
-[^2]: []()
+[Link](https://eur/lex.europa.eu/legalcontent/EN/LSU/?uri=CELEX:32019R0881)
+
+### KEY TERMS
+
++ **Cybersecurity**: the activities necessary for the protection of network and information systems, their users and others affected by cyber threats.
++ **Cyber threat**: a potential circumstance, event or action that could damage, disrupt or adversely affect network and information systems, their users and others
+
+:::tip Aim of Regulation: 
++ Achieve high level cyber security resilience and trust in the European Union
++ objectives, tasks, organizational matters for a strengthened and renamed European Union Agency for Cyber Security with a new permanent mandate
++ a framework for voluntary European cyber security certification schemes for Information and communication technology (ICT) products, services and processes
+:::
+
+### ENISA:
++ should achieve high level of cyber security.
++ operates according to a single programming document containing its annual and multiannual programming complies with EU measures
+
+### EINSA tasks
++ raise public awareness of cybersecurity risks and provide good practices guidance for individual users and promote cybersecurity awareness and education in general
++ reduce fragmentation of internal market (for certification of cybersecurity per State)
++ act independently, avoid duplicating national activities and take account of national expertise
++ support EU operational cooperation among all actors involved
++ ENISA regulation establishes a European Cyber Security Regulation Framework:
++ improve the functioning of the internal market by increasing the level of cybersecurity in the EU and enabling a harmonized approach at EU level to + European cybersecurity certification schemes with a view to creating a digital single market for ICT products, services and processes set up a + mechanism to establish certification schemes that confirm ICT products, services and processes that have been evaluated in accordance with such schemes comply with specified security requirements to protect the availability, authenticity, integrity or confidentiality of stored, transmitted or processed data or functions or services offered by, or accessible via, those products, services and processes throughout their life cycle
++ evaluates each adopted certification scheme every 5 years, taking account of the feedback received
+
+### The voluntary cybersecurity certification scheme:
++ aims to protect stored, transitted, processes data
++ classify ICT product security level into: basic, substantial, high
++ allow conformity self-assessment for ICT products for low risk organizations
++ must have such as clear descriptions of purpose, subject matter and scope and the evaluation criteria and methods used 
++ replace similar national ones, although all remain valid until their expiry date
+Manufacturers and providers of certified ICT products, services or processes must make publicly available:
+
++ guidance and recommendations to help end users install, apply and maintain their products or services
++ the duration they offer security support;
++ their contact details;
++ references to online repositories with information on known cybersecurity issues affecting their products or service
++ Individuals and legal entities have the right to lodge a complaint with the issuer of a European cybersecurity certificate and to seek effective judicial remedy
++ The regulation does not affect EU countries’ responsibilities for public security, defence, national security and criminal law
