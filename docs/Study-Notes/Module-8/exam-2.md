@@ -20,7 +20,57 @@ Agile comes from software development, but is applicable to other types of proje
 ## Agile vs Structured software development paper
 Study of the distributed project of both Agile and Structured development teams. The study shows no significant difference between the two types of processes.
 
+Study evaluates correlation between: **process type**, **success**.
 
+For globally distributed projects: 
++ choosing agile or structured does not appear to be crucial
++ agile and structured processes equally effective for globally distributed software
++ Take home lesson: 
+  + development process is not an independent variable: success of agile or structured depends on other variables.
+  + its choice cannot single handedly determine the successful or unsuccessful outcome of a project
+
+Major dimensions being impacted by usage of agile/ structured in processes:
++ importance for customers
++ team motivation 
++ cost effectiveness
++ amount of real time
++ asynchronous communication
++ communication difficulties
++ cultural differences
++ ineffective project management
++ loss or fluctuation of know-how
++ shortage of labor skills
++ ineffective reading or writing of documentations 
++ interpersonal conflict
++ difficulties in keeping to the project schedule
++ protecting intellectual property
+
+### Near-shore vs Off-shore
+*Nearshore development (ND) and Offshore development (OD)*
++ documentation, difficult when cultural differences OD
++ ND team coordination and collaboration with customers easier
++ ND more expensive but not necessarily
++ ND main reason not cost reduction but do for legal reasons: travels reduced 
++ OF more fluctuation
++ OF can protect Intellectual Property best 
+
+major sources of problems and difficulties with OD:
++ unqualified personnel
++ cultural communication difficulties
++ deficiencies of the infrastructure
++ insufficient interaction among units
++ personnel fluctuation (changing teams)
+
+major sources of success with OD:
++ skilled personnel
++ effective team building
++ effective communication
++ Intellectual properties
+
+No difference between globally distributed projects and outsourced projects found.
+Flexibility is the central skill for distributed software development
+
+`Estler, H._C., Nordio, M., Furia, C., Meyer, B., & Schnieder, J. (2013) Agile vs. structured distributed software development: A case study. Empirical Software Engineering, 19 (5): 1197-1224`
 
 ## Does Agile Work ?
 Study tested `efficiency` and `stakeholder satisfaction` shows positive impact of Agile.
@@ -50,7 +100,134 @@ Study suggests Agile has a positive impact on efficiency, stakeholder satisfacti
 
 `Serrador, P., and Pinto, J. (2015) Does Agile work? A quantitative analysis of agile project success. International Journal of Project Management, 33 (5): 1040-1051`
 
-## Cost and time project mgmt success paper.
+## Cost and time project management success paper.
+
+The goal of the paper is to identify the project management practices through which an organization can optimize the **CTPMS = Time Project Management Success** of IT development projects.
+
+### Which factors influence project management success:
+
++ Positive Factors :+1:
+  + project size
+  + duration
+  + postponement (close to risk management until resources are mostly available)
+  + project manager
+
++ Negative Factors :thumbsdown:
+  + team allocation
+  + team allocation dispersion
+
+### Project Management Success from two perspectives:
+
+project manager must deliver project outputs on time, within budget and with required features. (time, budget, scope)
+
+Project Managment Success shortened to (PMS)
+
+These are the measures on the iron triangle (time, budget, scope) they are considered independent.
+
+However if cost and time would be considered dependent, you can just focus on doing scope well then time and budget will follow from how well you did scoping.
+
+:::tip Cost Formula
+You can grade your project's performance by dividing the prediction of cost and time by the actual cost and time.
+The larger the number the better score.
+![](./img/formula-cost.png)
+:::
+
+### Information System Development:
+
+How to get *scope* right?
++ many small changes expected during project execution
++ constant negotiations in scope = agile approach
+
+Apply multilevel perspective to understand project problems and interdependencies between data
+
+Risk Management contributes to project success
+
+### 4 levels of elements influencing Project Management Success:
+Portfolio Network Level (project network closeness and eigenvector)
++ describe patterns of interactions among people using a graph of connections
++ people are nodes
++ relationships between actors are ties
++ eigenvector centrality: how close node is to popular node
++ closeness centrality: how close node is to all other nodes
++ Project Level Effects (project size, duration, outsourcing,..)
++ Project Manager Level (project manager diversity and power)
++ Team Project Level Effects (team size, group diversity,..)
+
+![](./img/levels-cost.png)
+
+:::theorem Project Portfolio Management
+Process to ensure that correct project will be done to 
+achieve goals desired by the organization
++ controls costs and human resources constantly
+:::
+
+Other findings of the study:
++ larger projects with long duration positively influence PMS.
++ larger projects are usually strategic and prioritized by an executive committee
++ postponing the start of a project has a positive effect on PMS
++  outsourcing projects has no positive effect on project cost and time since the internal IT resources are more trained and specialized than are outsourced resources.
++ project manager as the formal authority that is given to the project manager based on his/her role no longer influences team members due to the more empowered agile teams and their familiarity with new technologies, products and agile methodologies.
++ high levels of project manager diversity have a positive effect on PMS.
++ Specialization is not valid for an IT project manager. A project manager who can be exposed to projects of different sizes and types during his/her career is better prepared to address unexpected situations that could affect PMS.
++ focussed and less-disperse teams can present better results than multiple, larger and sparse teams addressing a multiplicity of projects.
++ The team allocation into the portfolio: Two networks types: leading to opposite effects: 
+  + Having individuals originally allocated in central projects sharing hours with multiple projects reduces PMS
+  + having individuals sharing hours with other central projects increases PMS
+  + central projects are usually strategic projects that are better controlled and have the best technical teams. Thus, team members are naturally more worried about the project's results when working on central projects than when working on peripheral projects.
+
+`Sanchez, O., Terlizzi, M. & De Oliveira, H. (2017) Cost and time project management success factors for information systems development projects. International Journal of Project Management, 35: 1608-1626`
+
+## To Continue or Discontinue the Project, That is the Question.
+
+Goal of paper is to prevent *equivocal situations*.
+
+:::theorem Equivocal Situations
+When in a project, the project manager has two or more competing or contradictory options to take.
+Equivocal situations make decision making hard in projects
+:::
+
+Equivocal vs Unequivocal Situation:
+> situations where the decision maker(s) have or are able to construct and commit themselves to credible criteria which can be fully and satisfactorily compared to available data, versus situations where the decision maker(s) do not have or are unable to create such criteria 
+or do not have sufficient data to fully compare against the standards.
+
+*examples are related to the development of a web app*
+Paper shows influence of the following antecedents on equivocal situations:
++ **Content**: what?
+  example: not clear about: html, css, js
++ **Context**:
+  + example: not clear about the the client's requirements
++ **Process**: how?
+  + example: not clear about when to do meetings with the client.
+
+hardest question in evaluation of projects whether to continue or abandon a project in trouble
+Traditional capital budgeting techniques are antecedents of equivocal situations.
+
+**Equivocality vs Ambiguity:**
+
+Equivocality: having several competing or contradictory conceptual frameworks
+Ambiguity: not having a conceptual framework for interpreting information
+
+common denominator is knowledge, need for information
+
+**Evaluation**:
+> evaluation is conceived as a purposeful study of some evaluation object (evaluant) comprising: the generation of data of and from this object the selection and formulation of appropriate criteria to be used as yardsticks the matching of data and criteria in order to formulate evaluative statements and conclusions about the evaluation object
+
+ Strongest sources of equivocal situations:
++ **Content**
+  + Challenges of project management:
+    + inadequate senior management control over project execution
+    + the vagueness of the project charter as the basis for managing the project 
+
++ **Context**
+  + Different frames of reference:
+    + difficulty in gaining mutual perception due to different backgrounds
+    + the lack of complementary skills & abilities among decision-makers to proceed with effective evaluation 
+
++ **Process**
+  + Lack of evaluation data:
+    + unavailability of data to support the evaluation
+
+`Arviansyah, A., Spil, T., & Hillegersberg, J. van (2015). To Continue or Discontinue the Project, That is the Question, International Conference of Information Systems`
 
 ## System Dynamics Approach for Forecasting Performance of Construction Projects
 
@@ -72,7 +249,7 @@ Model was developed with the performance variables:
 7. team satisfaction
 8. client satisfaction
 
-:::theorem Casual Loop Diagram
+:::theorem Causal Loop Diagram
 A causal loop diagram consists of four basic elements: the variables, the links between them, the signs on the links (which show how the variables are interconnected), and the sign of the loop (which shows what type of behavior the system will produce). By representing a problem or issue from a causal perspective, you can become more aware of the structural forces that produce puzzling behavior.
 :::
 
@@ -215,6 +392,10 @@ To integrate two platforms that support Scrum you need to:
 2. retrieve the data model of all applications you wish to integrate.
 3. identify mappings between the applications and with the **SRO**.
 4. Implementation
+  + Use an ORM to map the scrum classes to the database.
+  + Build an CRUD API
+  + Access Scrum apps with a secret token.
+  + Create a Dashboard to view the aggregated data.
 
 **SRO adapted to a ERD**
 [SRO adapted to something that can be stored](./img/id-sro.png)
