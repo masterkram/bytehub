@@ -147,15 +147,182 @@ Critical components:
 
 `Pelletier, Maia, and Patrick Boily. 2019. “Dashboards and Data Visualization, with Examples.”`
 
+## From a Scrum Reference Ontology to the Integration of Applications for Data-Driven Software Development
+
+Tools are used to support Scrum, For example:
++ Project management tools.
++ Git Repositories.
++ Quality assessment tools.
+
+These tools all have useful data stored, but the data is spread over all the applications. The consequence of this is that there are **missing opportunity for data-driven decision making**
+
+:::tip Example
+Merge requests are in gitlab repository. (git repository)
+User stories are in trello. (project management tool)
+Code quality reports are stored locally (quality assessment tools)
+:::
+
+**Goal of the study**: *create a model of scrum for software development*. (called ontology or SRO *scrum reference ontology*) The model of scrum can then be used by the developers of the tools that support scrum to integrate all the applications. When all the applications are integrated, this will enable better decision making.
+
+**Result of the study**: the integrated tools improved the software development unit it was tested in:
++ improved estimates
++ helped allocate teams
++ helped manage productivity
++ enabled to identify and fix problems with the Scrum process.
+
+The model created (**SRO**) was made using the *Software Ontology Network* which is a collection of base models for software development, so it has has a box with some entities already linked together, which the study uses to have less work and to ensure that it's not fragmented from other models.
+
+:::theorem Ontology
+Ontology is a Model for something in the real world. It has entities, relationships and properties. (Like an Entity Relationship Diagram from databases).
+
+It can be split into:
++ foundational ontologies: models about the basics of the world.
++ core ontologies: more detailed models, depends on foundational. 
++ domain ontologies: even more detailed, depends on core.
+:::
+
+The models that the study borrows from the *software ontology network* are:
++ enterprise ontology: core ontology that roles in organizations.
++ software process ontology: core ontology that models software development processes.
++ software requrirements ontology: domain ontology that models software requirements.
+
+### Scrum Reference Ontology
+
+It is organized into 5 sub-models:
++ **Scrum Process**: about events that occur during a project.
++ **Scrum Stakeholders**: about the teams and roles in a project.
++ **Scrum Stakeholder Participation**: about the participation of stakeholders in events.
++ **Product and Sprint Backlog**: about the requirements of a project.
++ **Scrum Deliverables**: about the results produced by a project.
+
+#### Scrum Process
+![scrum process ontology](./img/process-ont.png)
+#### Scrum Stakeholders
+![scrum stakeholder ontology](./img/stake-ont.png)
+
+#### Scrum Stakeholder Participation
+![scrum stakeholder participation ontology](./img/stake-par-ont.png)
+
+#### Product and Sprint Backlog
+![scrum Product and Sprint Backlog ontology](./img/prod-back-ont.png)
+
+#### Scrum Deliverables
+![Scrum Deliverables ontology](./img/deliver-ont.png)
+
+### Application
+To integrate two platforms that support Scrum you need to:
+1. convert the Scrum reference ontology into an actual data model. (convert it to a structure more suitable for a database)
+2. retrieve the data model of all applications you wish to integrate.
+3. identify mappings between the applications and with the **SRO**.
+4. Implementation
+
+**SRO adapted to a ERD**
+[SRO adapted to something that can be stored](./img/id-sro.png)
+
+`Paulo Sergio Santos Júnior, Monalessa Perini Barcellos, Ricardo de Almeida Falbo, Joao Paulo A. Almeida (2021). From a Scrum Reference Ontology to the Integration of Applications for Data-Driven Software Development. Information and Software Technology, 136 (2021) 106570`
+
 ## European Digital Single Market
 
 Digital Single Market is a goal of the European Union.
 
 :::theorem European Digital Single Market
 A single market is a type of trade bloc in which most trade barriers have been removed (for goods) with some common policies on product regulation, and freedom of movement of the factors of production (capital and labour) and of enterprise and services.
+The EU divides the single market into fields:
++ e-commerce
++ e-governance
++ data & ai
++ security
++ consumer protection
++ electronic communication networks.
 :::
 
+In 2019 the EU agreed to do implement the following policies to promote an EU Digital Single Market:
++ Ecommerce Policies
+  + cross border portability of some digital content
+  + prohibition of unjustified geo-locking
+  + simplification of VAT declaration and collection
+  + improvement of the `.eu` top level domain
+  + new copyright rules facilitating online content
+  + national rules regarding platforms harmonized
++ E Gov Policies
+  + best practices suggested.
++ Data & AI
+  + data location requirements have been reduced.
+  + national rules harmonized for better cross border data movement
+  + new European Data Protection Board
+  + funds allocated for AI
++ Security
+  + collaboration between cybersec agencies
+  + funds allocated
++ Consumer Protection
+  + adaptation of existing rules for the digital sector
+    + explain functioning of "algorithms"
+    + rules about monetary prices not shown
++ Electronic communication networks and services
+  + roaming calls rules
+  + rules for frequency spectrums eased
+  + funds allocated for 5G
+
+**Future Potential**
+1. Implement agreed upon policies
+2. Evaluate the performance of the policies
+
+Priorities:
++ Make the EU a tech powerhouse for emerging and important tech.
++ Stimulate the development of online platforms
++ Stimulate E-Gov
+  + Adapt blockchain tech
+
+For Policy techniques to be used by the EU, the study recommends:
++ principles based regulation: because it can be adapted to quickly changing environment.
++ code of conduct
++ rules enforced by EU (not the country) through a EU regulator.
++ recommends authorities to "automate enforcement" through IT.
++ non regulatory initiatives:
+  + funds
+  + monitoring
+  + best practices
+
 `De  Streele,  A.  (2019) Contribution  to  Growth:  European  Digital  Single Market. European Parliament.`
+
+## GDPR Summary
+
+:::tip GDPR Aim
++ protects individuals' data from private and public sector.
++ allows individuals to better control their personal data.
++ establishes a system of independent authorities in charge of monitoring compliance.
+:::
+
+:::tip GDPR Key Points
++ **individuals rights**:
+  + easier access to an individual's own data.
+    + provide info on how data is processed.
+  + new right to data portability.
+    + ability to transmit data between service providers.
+  + a clearer right to erasure.
+    + *right to be forgotten*
+    + data must be deleted if the individual no longer wants their data processed.
+  + the right to know when a person's data has been breached.
+    + companies must notify the relevant data protection authority.
+    + in serious cases also notify individuals.
++ **rules for businesses**:
+  + a set of EU wide rules for data protection.
+  + a data protection officer: must be designated by organizations who process large amounts of data or special categories of data like health-related data.
+  + one stop shop: businesses only deal with the authority in their country.
+  + EU rules for non EU companies: companies outside the EU must follow GDPR rules when offering services in the EU.
+  + Innovation friendly rules: data protection by design & default.
+  + Privacy friendly techniques:
+    + Pseudonymisation: field names are replaced with an fake name.
+    + Encryption
+  + Removal of notifications
+    + Scraped most notification obligations (i.e when a company needs to report that something happened)
+  + Data protection impact assessments
+    + Organizations will need to carry out impact assessments when processing is at high risk of affecting individuals.
+  + Record keeping.
+    + small and medium companies do not need to keep records of processing activities (except if data is high risk)
+  + A modern toolbox for international data transfers.
+    + GDPR offers legal tools to allow companies to transfer personal data to companies outside the EU.
+:::
 
 **References** 
 
