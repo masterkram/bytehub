@@ -398,7 +398,7 @@ To integrate two platforms that support Scrum you need to:
   + Create a Dashboard to view the aggregated data.
 
 **SRO adapted to a ERD**
-[SRO adapted to something that can be stored](./img/id-sro.png)
+![SRO adapted to something that can be stored](./img/id-sro.png)
 
 `Paulo Sergio Santos Júnior, Monalessa Perini Barcellos, Ricardo de Almeida Falbo, Joao Paulo A. Almeida (2021). From a Scrum Reference Ontology to the Integration of Applications for Data-Driven Software Development. Information and Software Technology, 136 (2021) 106570`
 
