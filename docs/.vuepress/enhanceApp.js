@@ -13,11 +13,7 @@ export default ({
   siteData, // site metadata
 }) => {
   // Google analytics integration
-  if (
-    process.env.NODE_ENV === "production" &&
-    GA_ID &&
-    typeof window !== "undefined"
-  ) {
+  if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
     addGoogleTag(window, document);
 
     window.dataLayer = window.dataLayer || [];
