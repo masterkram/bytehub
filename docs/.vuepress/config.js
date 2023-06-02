@@ -35,6 +35,15 @@ module.exports = {
         href: "/favicon-32x32.png",
       },
     ],
+    [
+      "script",
+      {
+        src:
+          "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5696528373869188",
+        cross_origin: "anonymous",
+        async: true,
+      },
+    ],
   ],
 
   /**

@@ -1,4 +1,4 @@
-# Experiment, sample space and probability
+# Ch1: Experiment, sample space and probability
 
 ## Experiment and sample space
 

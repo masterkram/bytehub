@@ -1,7 +1,7 @@
 # BIT
 
-<p class="banner"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+<p class="banner">
+<Icon name="ph:app-window-bold" size="24" />
 </svg>Bytehub - Business IT companion site.</p>
 
 ## What Is BIT ?
@@ -13,10 +13,14 @@ It aims to teach students how to provide IT solutions to business problems.
 
 ## Why BIT ?
 
-interface between two groups.
+<!-- interface between two groups.
 IT culture / business culture is **very** different
 
-if you want solutions you have to translate between the two groups.
+if you want solutions you have to translate between the two groups. -->
+
+### Real World Problems
+
+### Freedom
 
 ## Course Structure
 
@@ -33,15 +37,31 @@ if you want solutions you have to translate between the two groups.
 
 ::: danger BSA Warning
 To continue after year 1 the following requirements are needed:
-+ credits >= 45 ECs
-+ number of passed math courses >= 3
-:::
+
+- credits >= 45 ECs
+- number of passed math courses >= 3
+  :::
 
 ## What is Bytehub ?
+
+Bytehub is a community based website, which publishes articles with the goal of helping students.
+This community takes time to write summaries that are relevant to everyone taking the courses of BIT.
+
+On the technical side, this website is what is known as a _markdown driven website_.
+using the static site generator [vuepress](https://vuepress.vuejs.org/).
+We can generate `html` pages which would otherwise by using a simple markdown syntax.
+
+We write all of our documents in markdown which are then compiled to html which you are reading now.
+if you are interested in becoming part of the community see [this page](../contributing.md).
+
+## Sources
+
+- https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
 
 <style>
   .banner {
     display: flex;
+    align-items: center;
     background-color: #3eaf7c;
     color: #fff;
     font-weight: 800;

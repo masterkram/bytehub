@@ -1,4 +1,4 @@
-# Conditional probability and independence
+# Ch3: Conditional probability and independence
 
 ## Conditional probability
 

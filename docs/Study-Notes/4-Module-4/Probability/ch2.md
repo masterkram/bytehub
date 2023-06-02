@@ -1,4 +1,4 @@
-# Combinatorial Probability
+# Ch2: Combinatorial Probability
 
 ## Key concepts
 

@@ -1,4 +1,4 @@
-# Discrete random variables
+# ch4: Discrete random variables
 
 ## Random variable
 
