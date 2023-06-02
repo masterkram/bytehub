@@ -40,7 +40,16 @@ module.exports = {
       {
         src:
           "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5696528373869188",
-        cross_origin: "anonymous",
+        crossOrigin: "anonymous",
+        async: true,
+      },
+    ],
+    [
+      "script",
+      {
+        src:
+          "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5696528373869188",
+        crossOrigin: "anonymous",
         async: true,
       },
     ],
