@@ -4,8 +4,13 @@
 Git is a version control software which allows you to save changes.
 <br/> &rarr; You made a mistake in your code? You can undo it! 
 <br/> Git is open source which means you can download this software online for free.
+<br/> Check out: https://git-scm.com/ 
+<br/> **_NOTE:_** When you downloaded git, type the command in your terminal to check whether you downloaded git successfully. 
+>```  
+> git 
+>``` 
 
-Github/Gitlab/Bitbucket are collaboration websites which interact with git and just help to make use of github. In this article we focus on github.
+Github/Gitlab/Bitbucket are collaboration websites which interact with git and just help to make use of git. In this article we focus on github.
 
 ## What is the github workflow?
 1. Branching
@@ -19,7 +24,6 @@ Github/Gitlab/Bitbucket are collaboration websites which interact with git and j
 <br/> &rarr; Here your collegues on the project can leave comments on your changes.
 5. Merge
 <br/> &rarr; Once the pull request is accepted by the owner of the master, you merge your branch containing the committed changes with the master branch. All changes are then included in the production branch!
-
 
 
 ## How to use git?
@@ -384,9 +388,12 @@ Every project contains a readme file. This can be a .txt file or a .md file for 
 3. Type your text 
 4. Press control c or escape to get out of insert mode and back to vim mode
 5. Press wq to write and quit which saves your changes to the file and exit the vim mode
+6. To see what is written in the readme file 
+    >```
+    > cat readme.md 
+    >```
 
-
-## Other useful git commands :sunglasses:
+## Summary of useful commands :sunglasses:
 
 1. This command displays all previously inputted git commands in the git project you are currently located.
     >```
@@ -414,18 +421,152 @@ Every project contains a readme file. This can be a .txt file or a .md file for 
 
     **_NOTE:_**  Go to the project, go to the branches you want to be added to the master branch
 
+5. Fork a project
+
+    **_NOTE:_** You make an exact copy of an open source project under your account.
+    This means if you push new changes to master, you push them to the forked master only visible on your account. If you actually would like to contribute with your changes to the original project, send the original owner a pull request. 
+
+6. Clone a repository down to your local machine
+     **_NOTE:_** Get the path from github
+    >```
+    > git clone <path>
+    >```
+
+7. Update your local project with new changes your collegues might have made
+    **_NOTE:_** Not to confuse with a pull request which is the opposite because that is where you request your changes to be added to the master.
+    >```
+    > git pull 
+    >```
+
+8. View made changes by collegues
+    **_NOTE:_** Just view made changes without pulling them to your local project yet.
+    >```
+    > git fetch
+    >```
+
+    **_NOTE:_**  In case you decide, that you want to pull them after inputting fetch, you can type the following command (git fetch + git merge = git pull)
+
+    >```
+    > git merge 
+    >```
+
+9 . Checkout the status of your git project. This command should be used constantly! After every line you type, you should check if what you intended to add, delete, etc. was executed correctly. You can see it via the git status command.
+
+**_NOTE:_** The shortcut command for git status is gst
+>```
+> git status 
+>```
+
+### What is a two step commit? 
+When we want to add changes to the project we are working on we need to execute the commands add, commit, push in the respective order. Personally, I suggest to execute the commands git add, git status, git commit, git status, git push, git status in the respective order to be sure the changes were done correctly after each step. 
+
+10. Add changes to the staging area
+**_NOTE:_** Once you have made changes, you execute the add command.
+
+**Example**: Here we add one file manually. Only the changes from that file are added.
+>```
+> git add dina22.txt 
+>```
+
+**_NOTE:_** To add all changes, type the following command
+
+>```
+> git add -A
+>```
+
+**_NOTE:_** After you added all changes, type the git status command to check if your changes were added as expected.
+
+11. Add the changes from the staging area to the repository locally permanantly.
+When you make a commit a commit ID is created which stored the commit in the history of all commits ever made within this project.
+
+>```
+> git commit -m "update git guide"
+>```
+
+**_NOTE:_** After you added all changes, type the git status command to check if your changes were added as expected.
+
+12. Send the changes from your local repository to the remote repository
+
+>```
+> git push 
+>```
+
+**_NOTE:_** After you added all changes, type the git status command to check if your changes were added as expected.
+
+13. Remove an added file
+**_NOTE:_** Here names.txt is the file we accidentally added to the staging phase via the add command and wish to remove from the staging phase now.
+>```
+> git restore --staged names.txt
+>```
+**_NOTE:_** Do not forget to type git status, to check if your file has been removed from the staging stage successfully!
+
+14. View history of all commits
+**_NOTE:_** To exit this log, type the letter q
+>```
+> git log 
+>```
+
+Example of a part of a possible Ouput:
+```
+    commit fccd056d626a9261b6651ab8b1b482aa7753cd19
+    Author: dinaaa25 <dina.lazorenko@gmail.com>
+    Date:   Mon Feb 20 22:50:25 2023 +0100
+
+        update git article
+
+    commit a96372affce4e7026aa65385ce9422da813e71bd
+    Author: dinaaa25 <dina.lazorenko@gmail.com>
+    Date:   Mon Feb 20 22:48:21 2023 +0100
+
+        initial commit
+```
+15. Change the commit history
+**_NOTE:_** Let's assume you want to delete every commit before a certain commit.
+Whatever commit you copy, all commits above it will be removed.
+Then compy the commit id of that commit and enter the follwoing command:
+>```
+> git reset a96372affce4e7026aa65385ce9422da813e71bd
+>```
+**_NOTE:_** Now type command git log and see if your commits got deleted
+**_NOTE:_** All the files from the previous commits are now in the unstaged area. 
+
+13. Changing history. Use this command carefully!
+
+>```
+> git rebase
+>```
+
+14. Undo commits
+Best way to go is git revert.
+
+Also git reset, git commit-amend, git cherry-pick
+
+Always check that you are on the local and not remote repository
+
+
+**_NOTE:_** After you added all changes, type the git status command to check if your changes were added as expected.
+
+### Merge conflicts
+
+Merge conflicts occur when there has been made a change in the same file, in the same line, on the two branches you are trying to merge together
+
+**Example**: 
+<br/> &rarr; You have an index.html file on master
+<br/> &rarr; You have an index.html file on myBranch
+<br/> &rarr; You made changes in the same file in the same line on the two branches you are trying to merge together
+
+--> But isn t it the one same file??? 
+
+1. Run git status to see which files have the conflict 
+2. Search for merge conflict markers and changes the lines or delete them
+3. Commit changes and git will know conflict has been resolved 
 
 
 
+## Sources:
 
-
-
-
-
-
-
-    
-
+https://www.youtube.com/watch?v=apGV9Kg7ics
+https://www.youtube.com/watch?v=KmagW60Li-o
 
 
 
