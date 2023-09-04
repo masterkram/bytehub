@@ -13,14 +13,7 @@ It aims to teach students how to provide IT solutions to business problems.
 
 ## Why BIT ?
 
-<!-- interface between two groups.
-IT culture / business culture is **very** different
-
-if you want solutions you have to translate between the two groups. -->
-
-### Real World Problems
-
-### Freedom
+read: [don't call yourself a programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 
 ## Course Structure
 
@@ -53,10 +46,7 @@ We can generate `html` pages which would otherwise by using a simple markdown sy
 
 We write all of our documents in markdown which are then compiled to html which you are reading now.
 if you are interested in becoming part of the community see [this page](../contributing.md).
-
-## Sources
-
-- https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
+ 
 
 <style>
   .banner {

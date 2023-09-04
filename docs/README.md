@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /illustration.svg
+heroImage: /markbvb_portrait_of_man_and_woman_confident_business_and_IT_stu_6f13eb8d-e03b-4c64-b0dc-5e683db720d7.png
 heroText: Lecture Summaries For BIT
 tagline: We exist because we love helping la̶z̶y̶ students!
 actionText: Go to Summaries →
