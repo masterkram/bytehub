@@ -10,14 +10,14 @@ If we don't see the integer, we return -1 to signal that it is not in the array.
 :::
 
 ```java
-    public static int linear(int[] array, int x) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == x) {
-                return i;
-            }
+public static int linear(int[] array, int x) {
+    for (int i = 0; i < array.length; i++) {
+        if (array[i] == x) {
+            return i;
         }
-        return -1;
     }
+    return -1;
+}
 ```
 
 ### Binary Search
@@ -28,49 +28,49 @@ the array and determining on which side of the split the element could be.
 
 #### Iterative
 ```java
-    public static int binarySearchIterative(int[] array, int x) {
-        int upperLimit = array.length -1;
-        int lowerLimit = 0;
-        int mid;
+public static int binarySearchIterative(int[] array, int x) {
+    int upperLimit = array.length -1;
+    int lowerLimit = 0;
+    int mid;
 
-        while (upperLimit >= lowerLimit) {
-            mid = (upperLimit + lowerLimit) / 2;
-            if (array[mid] == x) {
-                return mid;
-            }
-
-            if (array[mid] > x) {
-                upperLimit = mid - 1;
-            } else {
-                lowerLimit = mid + 1;
-            }
+    while (upperLimit >= lowerLimit) {
+        mid = (upperLimit + lowerLimit) / 2;
+        if (array[mid] == x) {
+            return mid;
         }
-        return -1;
+
+        if (array[mid] > x) {
+            upperLimit = mid - 1;
+        } else {
+            lowerLimit = mid + 1;
+        }
     }
+    return -1;
+}
 ```
 
 #### Recursive
 ```java
-    public static int binarySearchRecursive(int[] array, int lowerLimit, int upperLimit, int x) {
-        if (upperLimit >= lowerLimit) {
-            int mid = (upperLimit + lowerLimit) / 2;
+public static int binarySearchRecursive(int[] array, int lowerLimit, int upperLimit, int x) {
+    if (upperLimit >= lowerLimit) {
+        int mid = (upperLimit + lowerLimit) / 2;
 
-            if (array[mid] == x) {
-                return mid;
-            }
-
-            if (array[mid] > x) {
-                return binarySearchRecursive(array, lowerLimit, mid - 1, x);
-            }
-
-            return binarySearchRecursive(array, mid + 1, upperLimit, x);
+        if (array[mid] == x) {
+            return mid;
         }
-        return -1;
-    }
 
-    public static int binarySearch(int[] array, int element) {
-        return binarySearchRecursive(array, 0, array.length - 1, element);
+        if (array[mid] > x) {
+            return binarySearchRecursive(array, lowerLimit, mid - 1, x);
+        }
+
+        return binarySearchRecursive(array, mid + 1, upperLimit, x);
     }
+    return -1;
+}
+
+public static int binarySearch(int[] array, int element) {
+    return binarySearchRecursive(array, 0, array.length - 1, element);
+}
 ```
 
 ## Sorting
@@ -81,21 +81,21 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 :::
 
 ```java
-    public static void selectionSort(int[] array) {
-        for (int i = 0; i < array.length ; i++) {
-            int minIndex = i;
-            // find smallest element in array.
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[j] < array[minIndex]) {
-                    minIndex = j;
-                }
+public static void selectionSort(int[] array) {
+    for (int i = 0; i < array.length ; i++) {
+        int minIndex = i;
+        // find smallest element in array.
+        for (int j = i + 1; j < array.length; j++) {
+            if (array[j] < array[minIndex]) {
+                minIndex = j;
             }
-            // swap i with the found element.
-            int temp = array[i];
-            array[i] = array[minIndex];
-            array[minIndex] = i;
         }
+        // swap i with the found element.
+        int temp = array[i];
+        array[i] = array[minIndex];
+        array[minIndex] = i;
     }
+}
 ```
 ### Insertion Sort
 ::: theorem Insertion Sort
@@ -107,18 +107,18 @@ in real life you just *insert* the card at the correct place but in java you nee
 :::
 
 ```java
-    public static void insertionSort(int[] array) {
-        for (int i = 1; i < array.length; i++) {
-            int key = array[i];
-            int j = i - 1;
+public static void insertionSort(int[] array) {
+    for (int i = 1; i < array.length; i++) {
+        int key = array[i];
+        int j = i - 1;
 
-            while (j >= 0 && array[j] > key) {
-                array[j + 1] = array[j];
-                j--;
-            }
-            array[j + 1] = key;
+        while (j >= 0 && array[j] > key) {
+            array[j + 1] = array[j];
+            j--;
         }
+        array[j + 1] = key;
     }
+}
 ```
 ### Bubble Sort
 ::: theorem Bubble Sort
@@ -127,17 +127,17 @@ are they in order ? no -> swap, yes -> next pair.
 :::
 
 ```java
-    public static void bubbleSort(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i] > array[j]) {
-                    int temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
+public static void bubbleSort(int[] array) {
+    for (int i = 0; i < array.length; i++) {
+        for (int j = i + 1; j < array.length; j++) {
+            if (array[i] > array[j]) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
     }
+}
 ```
 
 ### Quick Sort
@@ -153,47 +153,47 @@ There are many different versions of quickSort:
 :::
 
 ```java
-    public static void quickSort(int[] array) {
-        quickSortRecursive(array, 0, array.length-1);
-    }
+public static void quickSort(int[] array) {
+    quickSortRecursive(array, 0, array.length-1);
+}
 
-    public static void quickSortRecursive(int[] array, int low, int high) {
-        if (low < high + 1) {
-            int partition = partition(array, low, high);
-            quickSortRecursive(array, low, partition - 1);
-            quickSortRecursive(array, partition + 1, high);
+public static void quickSortRecursive(int[] array, int low, int high) {
+    if (low < high + 1) {
+        int partition = partition(array, low, high);
+        quickSortRecursive(array, low, partition - 1);
+        quickSortRecursive(array, partition + 1, high);
+    }
+}
+
+public static int partition(int[] arr, int low, int high) {
+    int pivot = getPivotIndex(low, high);
+    int partitionIndex = 0;
+
+    swap(arr, pivot, high);
+
+    for (int i = 0; i < high; i++) {
+        // we put the pivot arr[high]
+        if (arr[i] <= arr[high]) {
+            swap(arr, i, partitionIndex);
+            partitionIndex++;
         }
     }
+    swap(arr, partitionIndex, high);
 
-    public static int partition(int[] arr, int low, int high) {
-        int pivot = getPivotIndex(low, high);
-        int partitionIndex = 0;
+    return partitionIndex;
+}
 
-        swap(arr, pivot, high);
+private static int getPivotIndex(int low, int up)
+{
+    Random rand = new Random();
+    return rand.nextInt((up - low) + 1) + low;
+}
 
-        for (int i = 0; i < high; i++) {
-            // we put the pivot arr[high]
-            if (arr[i] <= arr[high]) {
-                swap(arr, i, partitionIndex);
-                partitionIndex++;
-            }
-        }
-        swap(arr, partitionIndex, high);
-
-        return partitionIndex;
-    }
-
-    private static int getPivotIndex(int low, int up)
-    {
-        Random rand = new Random();
-        return rand.nextInt((up - low) + 1) + low;
-    }
-
-    public static void swap(int[] arr, int a, int b) {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-    }
+public static void swap(int[] arr, int a, int b) {
+    int temp = arr[a];
+    arr[a] = arr[b];
+    arr[b] = temp;
+}
 ```
 
 ### Merge Sort
@@ -202,53 +202,53 @@ Merge Sort is a Divide and Conquer algorithm. It divides input array in two halv
 :::
 
 ```java
-    public static void mergeSort(int[] arr) {
-        mergeSortRecursive(arr, 0, arr.length - 1);
+public static void mergeSort(int[] arr) {
+    mergeSortRecursive(arr, 0, arr.length - 1);
+}
+
+public static void mergeSortRecursive(int[] arr, int low, int high) {
+    if (low < high) {
+        int middle = (high + low)/2;
+        mergeSortRecursive(arr, low, middle);
+        mergeSortRecursive(arr, middle + 1, high);
+        merge(arr, low, middle, middle + 1, high);
+    }
+}
+
+public static void merge(int[] arr, int low1, int high1, int low2, int high2) {
+    int index1 = 0;
+    int index2 = 0;
+    int indexArr = low1;
+
+    int[] copy1 = new int[high1 - low1+1];
+    int[] copy2 = new int[high2 - low2+1];
+
+    for (int i = 0; i < copy1.length; i++) {
+        copy1[i] = arr[low1 + i];
+    }
+    for (int i = 0; i < copy2.length; i++) {
+        copy2[i] = arr[low2 + i];
     }
 
-    public static void mergeSortRecursive(int[] arr, int low, int high) {
-        if (low < high) {
-            int middle = (high + low)/2;
-            mergeSortRecursive(arr, low, middle);
-            mergeSortRecursive(arr, middle + 1, high);
-            merge(arr, low, middle, middle + 1, high);
+    while (index1 < copy1.length && index2 < copy2.length) {
+        if (copy1[index1] <= copy2[index2]) {
+            arr[indexArr] = copy1[index1];
+            index1++;
+        } else {
+            arr[indexArr] = copy2[index2];
+            index2++;
         }
+        indexArr++;
     }
 
-    public static void merge(int[] arr, int low1, int high1, int low2, int high2) {
-        int index1 = 0;
-        int index2 = 0;
-        int indexArr = low1;
-
-        int[] copy1 = new int[high1 - low1+1];
-        int[] copy2 = new int[high2 - low2+1];
-
-        for (int i = 0; i < copy1.length; i++) {
-            copy1[i] = arr[low1 + i];
-        }
-        for (int i = 0; i < copy2.length; i++) {
-            copy2[i] = arr[low2 + i];
-        }
-
-        while (index1 < copy1.length && index2 < copy2.length) {
-            if (copy1[index1] <= copy2[index2]) {
-                arr[indexArr] = copy1[index1];
-                index1++;
-            } else {
-                arr[indexArr] = copy2[index2];
-                index2++;
-            }
-            indexArr++;
-        }
-
-        for (int i = index1; i < copy1.length; i++, indexArr++) {
-            arr[indexArr] = copy1[i];
-        }
-
-        for (int i = index2; i < copy2.length; i++, indexArr++) {
-            arr[indexArr] = copy2[i];
-        }
+    for (int i = index1; i < copy1.length; i++, indexArr++) {
+        arr[indexArr] = copy1[i];
     }
+
+    for (int i = index2; i < copy2.length; i++, indexArr++) {
+        arr[indexArr] = copy2[i];
+    }
+}
 ```
 
 ### Radix Sort
@@ -276,49 +276,49 @@ There are several ways of doing Radix Sort:
 
 *implementation: radixSort with countingSort*
 ```java
-    public static int[] radixSort(int[] arr) {
-        int[] count = new int[10];
-        int digit;
+public static int[] radixSort(int[] arr) {
+    int[] count = new int[10];
+    int digit;
 
-        // find the length of the largest number.
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
+    // find the length of the largest number.
+    int max = arr[0];
+    for (int i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
         }
-        int countDigits = Integer.toString(max).length();
-
-        // Iterate for each digit in the largest number in the array.
-        // keep track of the digits, tenths, hundredths ... with digitTen
-        for (int times = 1, digitTen = 1; times <= countDigits; times++, digitTen *= 10) {
-            // clear the count array.
-            Arrays.fill(count, 0);
-
-            // for each digit in the increase the count in the count array.
-            for (int i = 0; i < arr.length; i++) {
-                digit = arr[i] % (digitTen * 10);
-                digit = digit/digitTen;
-                count[digit]++;
-            }
-
-            // get the prefix sum of the count array.
-            for (int i = 1; i < count.length; i++) {
-                count[i] = count[i - 1] + count[i];
-            }
-
-            // use the prefix sum to find the correct index for a digit.
-            int[] output = new int[arr.length];
-            for (int i = arr.length - 1; i >= 0; i--) {
-                digit = arr[i] % (digitTen * 10);
-                digit = digit/digitTen;
-                output[--count[digit]] = arr[i];
-            }
-
-            arr = output;
-        }
-        return arr;
     }
+    int countDigits = Integer.toString(max).length();
+
+    // Iterate for each digit in the largest number in the array.
+    // keep track of the digits, tenths, hundredths ... with digitTen
+    for (int times = 1, digitTen = 1; times <= countDigits; times++, digitTen *= 10) {
+        // clear the count array.
+        Arrays.fill(count, 0);
+
+        // for each digit in the increase the count in the count array.
+        for (int i = 0; i < arr.length; i++) {
+            digit = arr[i] % (digitTen * 10);
+            digit = digit/digitTen;
+            count[digit]++;
+        }
+
+        // get the prefix sum of the count array.
+        for (int i = 1; i < count.length; i++) {
+            count[i] = count[i - 1] + count[i];
+        }
+
+        // use the prefix sum to find the correct index for a digit.
+        int[] output = new int[arr.length];
+        for (int i = arr.length - 1; i >= 0; i--) {
+            digit = arr[i] % (digitTen * 10);
+            digit = digit/digitTen;
+            output[--count[digit]] = arr[i];
+        }
+
+        arr = output;
+    }
+    return arr;
+}
 ```
 
 ## Complexity

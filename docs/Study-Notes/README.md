@@ -33,7 +33,7 @@ To continue after year 1 the following requirements are needed:
 
 - credits >= 45 ECs
 - number of passed math courses >= 3
-  :::
+:::
 
 ## What is Bytehub ?
 
