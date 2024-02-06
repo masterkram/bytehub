@@ -54,7 +54,7 @@ Business analytics can be classified in the types:
 + **Predictive BI**: Predicting future values with statistical and machine learning techniques.
 + **Prescriptive BI**: Recommends decisions using optimization, simulation, etc.
 
-<img src="bi-types.jpeg" />
+<img src="./bi-types.jpeg" />
 
 ## Business Performance Management
 
