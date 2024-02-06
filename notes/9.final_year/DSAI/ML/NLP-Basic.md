@@ -35,7 +35,7 @@ graph LR
 ### Tokenization
 
 <aside>
-<img src="/icons/knife_blue.svg" alt="/icons/knife_blue.svg" width="40px" /> **Tokenization** Splitting a sentence into smaller chunks (tokens)
+<!-- <img src="/icons/knife_blue.svg" alt="/icons/knife_blue.svg" width="40px" /> **Tokenization** Splitting a sentence into smaller chunks (tokens) -->
 
 </aside>
 
