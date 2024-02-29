@@ -27,6 +27,7 @@ export default withMermaid({
     math: true,
     // lineNumbers: true,
     // theme: 'material-theme-darker'
+    // theme: 'dark-plus',
     config(md) {
       md.use(markdownItTextualUml);
     }
@@ -40,10 +41,13 @@ export default withMermaid({
     search: {
       provider:"local",
     },
-
+    editLink: {
+      pattern: 'https://github.com/masterkram/bytehub/edit/main/src/:path',
+      text: 'Edit this page on GitHub',
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/bytehub' },
-      { icon: 'linkedin', link: 'https://linkedin/mark_bruderer' },
+      { icon: 'github', link: 'https://github.com/masterkram/bytehub' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/mark-bruderer/' },
       { icon: 'x', link: 'https://x.com/mark_bruderer' },
     ]
   }
