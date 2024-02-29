@@ -11,6 +11,18 @@ function itemsToIgnore(data) {
 export default withMermaid({
   title: "Bytehub",
   description: "BIT summaries site.",
+  head: [[
+    'script',
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-178035298-1',
+      },
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'UA-178035298-1');",
+    ],
+  ],
   vite: {
     plugins: [
       // add plugin
