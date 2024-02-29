@@ -42,7 +42,6 @@ We can generate `html` pages which would otherwise by using a simple markdown sy
 
 We write all of our documents in markdown which are then compiled to html which you are reading now.
 if you are interested in becoming part of the community see [this page](../contributing.md).
- 
 
 <style>
   .banner {
