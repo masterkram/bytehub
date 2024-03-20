@@ -38,6 +38,9 @@ export default withMermaid({
       })
     ]
   },
+  sitemap: {
+    hostname: 'https://bytehub.nl'
+  },
   markdown: {
     math: true,
     // lineNumbers: true,
